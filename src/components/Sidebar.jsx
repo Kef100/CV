@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {
-  Check, Eye, GitCommit, GitHub, Linkedin, Mail,
+  Check, GitCommit, GitHub, Linkedin, Mail, Send,
 } from 'react-feather';
 
 const pi = 3.14;
@@ -194,8 +194,8 @@ function Sidebar() {
           </div>
           <div className="text-neutral-400 py-4 hover:text-sky-400 w-fit transition-all">
             <a href="https://www.linkedin.com/in/kevin-vink2/" target="_blank" className="flex gap-x-2 items-center border-b border-transparent hover:border-sky-400 pb-1" aria-label="download cv" rel="noreferrer">
-              <Eye size={20} />
-              View LinkedIn Profile
+              <Send size={20} />
+              Send me a message
             </a>
           </div>
         </div>
