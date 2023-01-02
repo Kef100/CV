@@ -32,14 +32,13 @@ function Banner() {
               &gt;
             </div>
           </div>
-          <button
-            aria-label="read-more"
-            type="button"
+          <a
+            href="#experience"
             className="bg-sky-400 text-accent-500/80 font-bold tracking-wider px-6 py-4
               w-fit uppercase text-sm transition-all hover:-translate-y-1 hover:bg-sky-300"
           >
             Explore now
-          </button>
+          </a>
         </div>
       </div>
       <div className="z-20">

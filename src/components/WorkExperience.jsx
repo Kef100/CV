@@ -43,7 +43,7 @@ const projects = [
 
 function WorkExperience() {
   return (
-    <div className="flex flex-col gap-y-3">
+    <div id="experience" className="flex flex-col gap-y-3">
       <h2 className="text-white font-bold text-2xl pb-4">Work Experience</h2>
       <div className="grid xl:grid-cols-3 gap-8">
         {projects.map((project) => (
