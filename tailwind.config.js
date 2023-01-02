@@ -18,7 +18,7 @@ module.exports = {
         roboto: ['Roboto-slab', 'sans-serif'],
       },
       backgroundImage: {
-        banner: "url('/src/images/banner.jpg')",
+        banner: "url('../public/banner.jpg')",
       },
       keyframes: {
         scroll: {
