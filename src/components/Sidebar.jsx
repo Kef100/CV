@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import {
   Check, Download, GitCommit, GitHub, Linkedin, Mail,
 } from 'react-feather';
+import Pdf from '../assets/Resume.pdf';
 
 const pi = 3.14;
 const radius = 45;
@@ -19,6 +20,7 @@ const skills = [
 const knowledges = [
   'GIT Knowledge',
   'Jest',
+  'Agile & Scrum',
   'MVC Framework',
   'OOP Development',
 ];
@@ -192,7 +194,7 @@ function Sidebar() {
             </ul>
           </div>
           <div className="text-neutral-400 py-4 hover:text-sky-400 w-fit transition-all">
-            <a href="./content/KevinVink_CV.pdf" className="text-sm flex gap-x-1 items-center border-b border-transparent hover:border-sky-400 pb-1" aria-label="download cv" download="KevinVink_CV.pdf">
+            <a href={Pdf} className="text-sm flex gap-x-1 items-center border-b border-transparent hover:border-sky-400 pb-1" aria-label="download cv">
               Download CV
               <Download size={20} />
             </a>

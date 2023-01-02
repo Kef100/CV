@@ -4,6 +4,10 @@ import Banner from './components/Banner';
 import Information from './components/Information';
 import WorkExperience from './components/WorkExperience';
 import Education from './components/Education';
+import Properties from './components/Properties';
+import Preferences from './components/Preferences';
+import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,9 +18,10 @@ function App() {
         <Information />
         <WorkExperience />
         <Education />
-        <div className="flex flex-col gap-y-3 pt-12">
-          <h2 className="text-white font-bold text-2xl pb-4">Properties</h2>
-        </div>
+        <Properties />
+        <Preferences />
+        <Testimonials />
+        <Footer />
       </div>
     </div>
   );

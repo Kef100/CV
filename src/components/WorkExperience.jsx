@@ -48,10 +48,8 @@ function WorkExperience() {
       <div className="grid xl:grid-cols-3 gap-8">
         {projects.map((project) => (
           <div key={project.title} className="w-full h-full bg-accent-300 px-6 py-4 flex flex-col gap-y-4 relative">
-            <div className="flex items-center justify-between">
-              <h3 className="text-white font-bold pt-4">{project.title}</h3>
-              <p className="absolute bg-sky-400/75 w-fit text-white px-2 py-1 rounded-md -top-4 right-4 shadow-lg">{project.role}</p>
-            </div>
+            <h3 className="text-white font-bold pt-4">{project.title}</h3>
+            <p className="absolute bg-sky-400/75 w-fit text-white px-2 py-1 rounded-md -top-4 right-4 shadow-lg">{project.role}</p>
             <p className="text-neutral-400">{project.description}</p>
             <div className="flex flex-wrap gap-2">
               {project.tags.map((tag) => (
