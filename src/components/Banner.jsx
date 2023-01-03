@@ -42,7 +42,13 @@ function Banner() {
         </div>
       </div>
       <div className="z-20 hidden xl:block">
-        <img src="https://bslthemes.com/arter/wp-content/uploads/2020/09/face-2-min.png" className="absolute bottom-0 right-12 h-[32vh]" alt="me standing" />
+        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="195" className="absolute top-0 right-96">
+          <polygon points="0,0 195,0 195,195" className="fill-white" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="195" className="absolute bottom-0 right-12">
+          <polygon points="0,0 195,0 0,195" className="fill-sky-400" />
+        </svg>
+        <img src="./standing.png" className="absolute bottom-0 right-12 h-[37vh]" alt="me standing" />
       </div>
       <div className="w-full h-full bg-accent-500/80 top-0 left-0 absolute z-10" />
     </div>
