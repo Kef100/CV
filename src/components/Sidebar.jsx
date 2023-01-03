@@ -24,6 +24,21 @@ const knowledges = [
   'OOP Development',
 ];
 
+const languages = [
+  {
+    language: 'English',
+    level: 'B2/C1',
+  },
+  {
+    language: 'Dutch',
+    level: 'C2',
+  },
+  {
+    language: 'German',
+    level: 'A2/B1',
+  },
+];
+
 function Sidebar() {
   const [age, setAge] = useState(0);
   const [dashOffset, setDashOffset] = useState(dashArray);
@@ -90,84 +105,34 @@ function Sidebar() {
           <div className="py-4 flex flex-col gap-y-2 border-b border-neutral-600">
             <h2 className="text-lg font-bold">Languages</h2>
             <div className="grid grid-cols-3 gap-x-4">
-              <div className="p-2 flex flex-col gap-y-2 justify-center items-center">
-                <div className="relative w-20 h-full">
-                  <p className="absolute text-sm top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">B2/C1</p>
-                  <svg viewBox="0 0 100 100">
-                    <circle
-                      className="fill-none stroke-neutral-400"
-                      strokeWidth="5"
-                      strokeLinecap="round"
-                      cx="50"
-                      cy="50"
-                      r={radius}
-                    />
-                    <circle
-                      strokeDasharray={dashArray}
-                      strokeDashoffset={dashOffset}
-                      className="fill-none stroke-sky-400"
-                      strokeWidth="5"
-                      strokeLinecap="round"
-                      cx="50"
-                      cy="50"
-                      r={radius}
-                    />
-                  </svg>
+              {languages.map((language) => (
+                <div className="p-2 flex flex-col gap-y-2 justify-center items-center">
+                  <div className="relative w-20 h-full">
+                    <p className="absolute text-sm top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">{language.level}</p>
+                    <svg viewBox="0 0 100 100" className="-rotate-90">
+                      <circle
+                        className="fill-none stroke-neutral-400"
+                        strokeWidth="5"
+                        strokeLinecap="round"
+                        cx="50"
+                        cy="50"
+                        r={radius}
+                      />
+                      <circle
+                        strokeDasharray={dashArray}
+                        strokeDashoffset={dashOffset}
+                        className="fill-none stroke-sky-400"
+                        strokeWidth="5"
+                        strokeLinecap="round"
+                        cx="50"
+                        cy="50"
+                        r={radius}
+                      />
+                    </svg>
+                  </div>
+                  <p>{language.language}</p>
                 </div>
-                <p>English</p>
-              </div>
-              <div className="p-2 flex flex-col gap-y-2 justify-center items-center">
-                <div className="relative w-20 h-full">
-                  <p className="absolute text-sm top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">C2</p>
-                  <svg viewBox="0 0 100 100">
-                    <circle
-                      className="fill-none stroke-neutral-400"
-                      strokeWidth="5"
-                      strokeLinecap="round"
-                      cx="50"
-                      cy="50"
-                      r={radius}
-                    />
-                    <circle
-                      strokeDasharray={dashArray}
-                      strokeDashoffset={dashOffset}
-                      className="fill-none stroke-sky-400"
-                      strokeWidth="5"
-                      strokeLinecap="round"
-                      cx="50"
-                      cy="50"
-                      r={radius}
-                    />
-                  </svg>
-                </div>
-                <p>Dutch</p>
-              </div>
-              <div className="p-2 flex flex-col gap-y-2 justify-center items-center">
-                <div className="relative w-20 h-full">
-                  <p className="absolute text-sm top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">A2/B1</p>
-                  <svg viewBox="0 0 100 100">
-                    <circle
-                      className="fill-none stroke-neutral-400"
-                      strokeWidth="5"
-                      strokeLinecap="round"
-                      cx="50"
-                      cy="50"
-                      r={radius}
-                    />
-                    <circle
-                      strokeDasharray={dashArray}
-                      strokeDashoffset={dashOffset}
-                      className="fill-none stroke-sky-400"
-                      strokeWidth="5"
-                      strokeLinecap="round"
-                      cx="50"
-                      cy="50"
-                      r={radius}
-                    />
-                  </svg>
-                </div>
-                <p>German</p>
-              </div>
+              ))}
             </div>
           </div>
           <div className="py-4 flex flex-col gap-y-2 border-b border-neutral-600">
@@ -177,7 +142,7 @@ function Sidebar() {
                 <li
                   key={skill}
                   className={`relative flex items-center gap-x-2 text-sm 
-                  ${index !== skills.length - 1 && 'after:h-3 after:w-px after:bg-sky-400 after:absolute after:left-[7px] after:top-[18px]'}`}
+                  ${index !== skills.length - 1 && 'after:h-3 after:w-px after:bg-sky-400 after:absolute after:left-[7px] after:top-[1px]'}`}
                 >
                   <GitCommit size={15} className="text-sky-400 rotate-90" />
                   {skill}
