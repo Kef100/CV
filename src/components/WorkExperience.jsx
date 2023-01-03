@@ -45,7 +45,7 @@ function WorkExperience() {
   return (
     <div id="experience" className="flex flex-col gap-y-3">
       <h2 className="text-white font-bold text-2xl pb-4">Work Experience</h2>
-      <div className="grid xl:grid-cols-3 gap-8">
+      <div className="grid xl:grid-cols-3 gap-16">
         {projects.map((project) => (
           <div key={project.title} className="w-full h-full bg-accent-300 px-6 py-4 flex flex-col gap-y-4 relative">
             <h3 className="text-white font-bold pt-4">{project.title}</h3>

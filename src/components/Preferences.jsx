@@ -23,7 +23,7 @@ function Preferences() {
   return (
     <div className="flex flex-col gap-y-3 pt-12">
       <h2 className="text-white font-bold text-2xl pb-4">Properties</h2>
-      <div className="grid xl:grid-cols-3 gap-8">
+      <div className="grid xl:grid-cols-3 gap-16">
         {preferences.map((preference) => (
           <div key={preference.name} className="w-full h-full bg-accent-300 px-6 py-4 flex flex-col gap-y-4 relative">
             <h3 className="text-white font-bold pt-4">{preference.name}</h3>

@@ -22,7 +22,7 @@ function Testimonials() {
   return (
     <div className="flex flex-col gap-y-3 pt-10 pb-20">
       <h2 className="text-white font-bold text-2xl pb-4">Testimonials</h2>
-      <div className="grid xl:grid-cols-3 gap-8">
+      <div className="grid xl:grid-cols-3 gap-16">
         {testimonials.map((testimonial) => (
           <div key={testimonial.name} className="w-full h-full bg-accent-300 px-6 py-4 flex flex-col gap-y-4 relative">
             <div className="flex gap-x-4">
@@ -45,7 +45,7 @@ function Testimonials() {
                   Array.from({ length: testimonial.stars }, (_, i) => (
                     <Star key={i} className="fill-yellow-500 stroke-none" />
                   )).concat(Array.from({ length: 5 - testimonial.stars }, (_, i) => (
-                    <Star key={i} className="fill-neutral-400 stroke-none" />
+                    <Star key={i + 4} className="fill-neutral-400 stroke-none" />
                   )))
                 )}
               </span>

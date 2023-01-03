@@ -31,7 +31,7 @@ function Education() {
   return (
     <div className="flex flex-col gap-y-3 pt-8">
       <h2 className="text-white font-bold text-2xl pb-4">Education</h2>
-      <div className="grid xl:grid-cols-3 gap-8">
+      <div className="grid xl:grid-cols-3 gap-16">
         {educations.map((education) => (
           <div key={education.institution} className="w-full h-full bg-accent-300 px-6 py-4 flex flex-col gap-y-4 relative">
             <h3 className="text-white font-bold pt-4">{education.institution}</h3>
