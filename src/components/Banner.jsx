@@ -7,7 +7,7 @@ function Banner() {
       <div className="col-span-4 xl:col-span-3 z-20 px-6 xl:px-10 py-14">
         <div className="w-full h-full flex flex-col justify-between">
           <h1 className="text-3xl xl:text-6xl text-white font-black">Discover the Road of my Career!</h1>
-          <div className="text-white flex gap-x-1 text-lg items-center">
+          <div className="text-white flex gap-x-1 text-sm xl:text-lg items-center">
             <div>
               &lt;
               <span className="text-sky-400">code</span>
