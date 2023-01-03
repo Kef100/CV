@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
-const y = 6;
-const p = 10;
-const wj = 5;
+import data from '../data.json';
 
 function Information() {
   const [years, setYears] = useState(0);
@@ -10,19 +7,19 @@ function Information() {
   const [workedJobs, setWorkedJobs] = useState(0);
 
   useEffect(() => {
-    for (let i = 0; i <= y; i += 1) {
+    for (let i = 0; i <= data.information.years; i += 1) {
       setTimeout(() => {
         setYears(i);
       }, 100 * i);
     }
 
-    for (let x = 0; x <= p; x += 1) {
+    for (let x = 0; x <= data.information.projects; x += 1) {
       setTimeout(() => {
         setProjects(x);
       }, 100 * x);
     }
 
-    for (let z = 0; z <= wj; z += 1) {
+    for (let z = 0; z <= data.information.worked_jobs; z += 1) {
       setTimeout(() => {
         setWorkedJobs(z);
       }, 100 * z);

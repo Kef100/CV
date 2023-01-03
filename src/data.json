@@ -1,0 +1,143 @@
+{
+  "information" : {
+    "years": 6,
+    "projects": 10,
+    "worked_jobs": 5
+  },
+  "projects": [
+    {
+      "title": "Mr. Smith",
+      "role": "Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "tags": [
+        "Jul 2022 - Currently",
+        "React Redux",
+        "Typescript",
+        "MongoDB"
+      ]
+    },
+    {
+      "title": "Dimerce",
+      "role": "Front-end Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "tags": [
+        "Mei. 2021 - Mei 2022",
+        "Parttime",
+        "C# .NET",
+        "Flutter",
+        "OOP Principles",
+        "GIT"
+      ]
+    },
+    {
+      "title": "De Diepen",
+      "role": "Waiter",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "tags": [
+        "Jun. 2018 - Jul 2021",
+        "Parttime",
+        "Social skills",
+        "Teamwork"
+      ]
+    },
+    {
+      "title": "Qubiqx",
+      "role": "Web Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "tags": [
+        "Nov. 2020 - Apr 2021",
+        "Internship",
+        "Laravel",
+        "TailwindCSS",
+        "Blade",
+        "MVC"
+      ]
+    },
+    {
+      "title": "Suppliance B.V.",
+      "role": "Web Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "tags": [
+        "Aug. 2019 - Jan. 2020",
+        "Internship",
+        "PHP",
+        "MYSQL",
+        "HTML/CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "institution": "HAN University of Applied Sciences",
+      "location": "Arnhem, Netherlands",
+      "degree": "Bachelor",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris.",
+      "year": "2021 - 2025"
+    },
+    {
+      "institution": "ROC",
+      "location": "Nijmegen, Netherlands",
+      "degree": "Associate Degree",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris.",
+      "year": "2018 - 2021"
+    },
+    {
+      "institution": "Montesorri College",
+      "location": "Nijmegen, Netherlands",
+      "degree": "High School",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris.",
+      "year": "2014 - 2018"
+    }
+  ],
+  "properties": [
+    {
+      "name": "Motivated",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "icon": "smile"
+    },
+    {
+      "name": "Teamplayer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "icon": "users"
+    },
+    {
+      "name": "Independent",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "icon": "flag"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "Designing",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "icon": "pentool"
+    },
+    {
+      "name": "Frontend",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "icon": "command"
+    },
+    {
+      "name": "Components",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "icon": "grid"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Jeffrey Winters",
+      "role": "CEO of Winters Co.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris.",
+      "image": "https://images.pexels.com/photos/4750165/pexels-photo-4750165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "stars": 3
+    },
+    {
+      "name": "John Doe",
+      "role": "CEO",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris.",
+      "image": "https://images.pexels.com/photos/4750165/pexels-photo-4750165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "stars": 5
+    }
+  ]
+}

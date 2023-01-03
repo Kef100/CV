@@ -1,29 +1,13 @@
 import React from 'react';
 import { Star } from 'react-feather';
-
-const testimonials = [
-  {
-    name: 'Jeffrey Winters',
-    role: 'CEO of Winters Co.',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris.',
-    image: 'https://images.pexels.com/photos/4750165/pexels-photo-4750165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    stars: 3,
-  },
-  {
-    name: 'John Doe',
-    role: 'CEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris.',
-    image: 'https://images.pexels.com/photos/4750165/pexels-photo-4750165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    stars: 5,
-  },
-];
+import data from '../data.json';
 
 function Testimonials() {
   return (
     <div className="flex flex-col gap-y-3 pt-10 pb-20">
       <h2 className="text-white font-bold text-2xl pb-4">Testimonials</h2>
       <div className="grid xl:grid-cols-3 gap-16">
-        {testimonials.map((testimonial) => (
+        {data.testimonials.map((testimonial) => (
           <div key={testimonial.name} className="w-full h-full bg-accent-300 px-6 py-4 flex flex-col gap-y-4 relative">
             <div className="flex gap-x-4">
               <img
