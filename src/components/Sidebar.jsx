@@ -173,9 +173,13 @@ function Sidebar() {
           <div className="py-4 flex flex-col gap-y-2 border-b border-neutral-600">
             <h2 className="text-lg font-bold">Coding</h2>
             <ul className="flex flex-col gap-y-1">
-              {skills.map((skill) => (
-                <li key={skill} className="flex items-center gap-x-2 text-sm">
-                  <GitCommit size={15} className="text-sky-400" />
+              {skills.map((skill, index) => (
+                <li
+                  key={skill}
+                  className={`relative flex items-center gap-x-2 text-sm 
+                  ${index !== skills.length - 1 && 'after:h-3 after:w-px after:bg-sky-400 after:absolute after:left-[7px] after:top-[18px]'}`}
+                >
+                  <GitCommit size={15} className="text-sky-400 rotate-90" />
                   {skill}
                 </li>
               ))}
