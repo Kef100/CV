@@ -66,7 +66,7 @@ function Sidebar() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-full w-full bg-sky-500" />
             </span>
-            <img src="https://bslthemes.com/arter/wp-content/uploads/2020/09/face-1-small.jpg" alt="avatar" className="rounded-full w-20 h-20 ring-2 ring-offset-4 ring-offset-accent-400 ring-sky-400" />
+            <img src="./profile.png" alt="avatar" className="rounded-full w-20 h-20 ring-2 ring-offset-4 ring-offset-accent-400 ring-sky-400 bg-sky-400/10" />
           </div>
           <h1 className="text-lg font-bold">Kevin Vink</h1>
           <h3 className="text-neutral-400">Front-end Developer</h3>
