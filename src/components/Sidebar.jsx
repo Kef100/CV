@@ -142,7 +142,7 @@ function Sidebar() {
                 <li
                   key={skill}
                   className={`relative flex items-center gap-x-2 text-sm 
-                  ${index !== skills.length - 1 && 'after:h-3 after:w-px after:bg-sky-400 after:absolute after:left-[7px] after:top-[1px]'}`}
+                  ${index !== skills.length - 1 && 'after:h-3 after:w-px after:bg-sky-400 after:absolute after:left-[7px] after:top-[17px]'}`}
                 >
                   <GitCommit size={15} className="text-sky-400 rotate-90" />
                   {skill}
