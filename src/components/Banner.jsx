@@ -4,8 +4,8 @@ import { TypeAnimation } from 'react-type-animation';
 function Banner() {
   return (
     <div className="w-full h-[50vh] 2xl:h-[30vh] grid grid-cols-4 relative bg-banner bg-cover shadow-xl border-b-2 border-sky-400">
-      <div className="col-span-4 xl:col-span-3 z-20 px-6 xl:px-10 py-14">
-        <div className="w-full h-full flex flex-col justify-between">
+      <div className="col-span-4 lg:col-span-4 2xl:col-span-3 z-20 py-14 px-6 xl:px-10 xl:py-10">
+        <div className="w-full h-full flex flex-col items-center xl:items-start justify-between">
           <h1 className="text-3xl xl:text-6xl text-white font-black">Discover the Road of my Career!</h1>
           <div className="text-white flex gap-x-1 text-sm xl:text-lg items-center">
             <div>
@@ -41,8 +41,8 @@ function Banner() {
           </a>
         </div>
       </div>
-      <div className="z-20 hidden xl:block">
-        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="195" className="absolute top-0 right-96">
+      <div className="z-20 hidden 2xl:block 2xl:col-span-2 2xl:col-span-1 relative">
+        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="195" className="absolute top-0 lg:left-0 xl:left-auto xl:right-96">
           <polygon points="0,0 195,0 195,195" className="fill-white" />
         </svg>
         <svg xmlns="http://www.w3.org/2000/svg" width="200" height="195" className="absolute bottom-0 right-12">
