@@ -73,7 +73,7 @@ function Sidebar() {
   }, []);
 
   return (
-    <div className="w-full xl:sticky xl:top-0 bg-accent-500 h-screen xl:w-96 text-white shadow-xl">
+    <div className="w-full xl:sticky xl:top-0 bg-accent-500 h-full min-h-screen xl:w-96 text-white shadow-xl">
       <div className="flex flex-col w-full min-h-screen h-full relative">
         <div className="flex flex-col gap-y-1 items-center justify-center w-full py-6 bg-accent-400">
           <div className="relative pb-4">
@@ -87,7 +87,7 @@ function Sidebar() {
           <h3 className="text-neutral-400">Front-end Developer</h3>
           <h3 className="text-neutral-400">UI/UX Designer</h3>
         </div>
-        <div className="flex flex-col px-6 py-4 gap-y-2 lg:overflow-y-auto min-h-[75vh] h-full pb-20 relative">
+        <div className="flex flex-col px-6 py-4 gap-y-2 lg:overflow-y-auto h-full pb-20 relative">
           <div className="hidden border-neutral-600 border-b pb-4 flex-col gap-y-2 xl:flex">
             <div className="flex flex-col xl:flex-row xl:justify-between items-center">
               <p className="font-medium">Residence</p>
