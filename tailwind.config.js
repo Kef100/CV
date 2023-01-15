@@ -5,10 +5,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screens: {
-        '2xl': '1439px',
-        '3xl': '1919px',
-      },
       colors: {
         accent: {
           DEFAULT: '#20202a',
