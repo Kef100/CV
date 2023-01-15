@@ -9,7 +9,7 @@ function Banner() {
 
   return (
     <div className="w-full h-[30vh] xl:h-[55vh] 3xl:h-[30vh] flex relative bg-banner bg-cover shadow-xl border-b-2 border-sky-400">
-      <div className="z-20 py-14 px-6 xl:px-10 xl:py-10">
+      <div className="z-20 py-14 px-6 xl:px-10 xl:py-10 w-full h-full">
         <div className="w-full h-full flex flex-col items-center xl:items-start justify-between">
           <h1 className="text-3xl xl:text-6xl text-white font-black">Discover the Road of my Career!</h1>
           <div className="text-white flex gap-x-1 text-sm xl:text-lg items-center">
