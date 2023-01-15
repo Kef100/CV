@@ -12,7 +12,7 @@ import Lint from './components/Lint';
 
 function App() {
   return (
-    <div className="flex flex-col xl:flex-row font-roboto bg-accent-600 relative">
+    <div className="flex flex-col xl:flex-row font-roboto bg-accent-600 relative overflow-hidden">
       <Lint />
       <Sidebar />
       <div className="w-full h-full min-h-screen bg-accent-600 p-6 xl:px-10 xl:py-6 relative">
