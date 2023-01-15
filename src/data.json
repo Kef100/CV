@@ -1,5 +1,5 @@
 {
-  "information" : {
+  "information": {
     "years": 6,
     "projects": 10,
     "worked_jobs": 5
@@ -7,8 +7,9 @@
   "projects": [
     {
       "title": "Mr. Smith",
+      "website": "https://www.mrsmith.nl/",
       "role": "Developer",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "description": "I am working at Mr Smith as a Developer. Mr Smith is a company that works in the maritime industry, they build multimedia entertainment systems for yachts. While I was working at Mr Smith I worked on bugs in multiple system and built new features for existing systems, like for example controlling an appleTV via HTTP, during this time the used programming languages were ReactJS (Redux) & Typescript.",
       "tags": [
         "Jul 2022 - Currently",
         "React Redux",
@@ -18,12 +19,13 @@
     },
     {
       "title": "Dimerce",
+      "website": "https://dimerce.com/",
       "role": "Front-end Developer",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "description": "While working at Dimerce as a Front-end developer, I worked at the Front-end of webshops, websites and  web applications. I mainly worked in my vacation as I was busy with school during workdays. at Dimerce I enhanced my knowledge and learned new things about the following programming lanuguages: HTML, CSS, C# .NET CORE, Flutter, Javascript/Jquery & MYSQL.",
       "tags": [
         "Mei. 2021 - Mei 2022",
         "Parttime",
-        "C# .NET",
+        "C# .NET CORE",
         "Flutter",
         "OOP Principles",
         "GIT"
@@ -31,8 +33,9 @@
     },
     {
       "title": "De Diepen",
+      "website": "https://www.dediepen.nl/",
       "role": "Waiter",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "description": "While working at De Diepen as a Waiter, I learned how to improve and develop my social skills, mature, communicate with colleagues and some other skills related to the catering industry. I got to know alot of new people during this job and also got alot better at speaking German because this restaurant was located about 5 minutes from the border of Germany.",
       "tags": [
         "Jun. 2018 - Jul 2021",
         "Parttime",
@@ -42,8 +45,9 @@
     },
     {
       "title": "Qubiqx",
+      "website": "https://www.qubiqx.com/",
       "role": "Web Developer",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "description": "While doing my internship at Qubiqx as a Full-stack Developer, I built a web portal in Laravel, much of my time was spent fixing issues in Customers Databases. I learned alot about Laravel, Laragon and TailwindCSS during this internship. This also taught me how I can efficiently build websites using a front-end and a back-end framework. Finally Laravel taught me how handy an ORM (Object Relational Mapping) is.",
       "tags": [
         "Nov. 2020 - Apr 2021",
         "Internship",
@@ -55,8 +59,9 @@
     },
     {
       "title": "Suppliance B.V.",
+        "website": "https://www.suppliance.nl/",
       "role": "Web Developer",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "description": "While doing an intership at Suppliance B.V. as a Web Developer, I built a website for the company in PHP. In hindsight this website lacked alot of security and functionality in my opinion, but it was a good learning experience. I learned alot about PHP, MySQL, HTML, CSS and Javascript during this internship.",
       "tags": [
         "Aug. 2019 - Jan. 2020",
         "Internship",
@@ -72,72 +77,59 @@
       "institution": "HAN University of Applied Sciences",
       "location": "Arnhem, Netherlands",
       "degree": "Bachelor",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris.",
+      "description": "Currently I am studying at the HAN University in Arnhem to become a Web Developer, my projected time to finish is 2025. So i've learned alot about React, Object Oriented Programming, testing and working in a team for a school project.",
       "year": "2021 - 2025"
     },
     {
-      "institution": "ROC",
+      "institution": "ROC Nijmegen",
       "location": "Nijmegen, Netherlands",
       "degree": "Associate Degree",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris.",
+      "description": "I studied at the ROC in Nijmegen for the Associate Degree in Software Development, this thought me the basics about programming and its properties, the first languages i learned were HTML, CSS, Javascript, PHP, Java and C#.",
       "year": "2018 - 2021"
     },
     {
       "institution": "Montesorri College",
       "location": "Nijmegen, Netherlands",
       "degree": "High School",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris.",
+      "description": "I studied at Montesorri College in Nijmegen for my High School Diploma, this taught me all the basics like Math, English, Dutch, History, Geography, Physics, Chemistry, Biology, etc.",
       "year": "2014 - 2018"
     }
   ],
   "properties": [
     {
       "name": "Motivated",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "description": "When I work at a project I keep at it until it's done with my personal projects I'm busy until the late hours of the night to finish a feature which i thought out.",
       "icon": "smile"
     },
     {
       "name": "Teamplayer",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "description": "I love working in teams using the Agile and Scrum methods especially the scrum master role to make sure all the tasks at hand are correctly executed.",
       "icon": "users"
     },
     {
-      "name": "Independent",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
-      "icon": "flag"
+      "name": "Creative",
+      "description": "Thinking outside of the box to solve problems and coming up with new ideas, that is what I love to do with my projects.",
+      "icon": "box"
     }
   ],
   "preferences": [
     {
-      "name": "Designing",
+      "name": "Full-stack",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
       "icon": "pentool"
     },
     {
       "name": "Frontend",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "description": "I love to work on the frontend of a project, I love to design websites and make them look good and enjoyable to use for the users.",
       "icon": "command"
     },
     {
-      "name": "Components",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam quaerat tenetur pariatur doloribus.",
+      "name": "Reusability",
+      "description": "I love to make my code reusable, I love to make components that can be used in multiple projects, this makes my code more efficient, expandable and easier to maintain.",
       "icon": "grid"
     }
   ],
   "testimonials": [
-    {
-      "name": "Jeffrey Winters",
-      "role": "CEO of Winters Co.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris.",
-      "image": "https://images.pexels.com/photos/4750165/pexels-photo-4750165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "stars": 3
-    },
-    {
-      "name": "John Doe",
-      "role": "CEO",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris. Sed euismod, nisl vitae ultricies lacinia, nunc nisl aliquam massa, eget aliquam nisl nunc vel mauris.",
-      "image": "https://images.pexels.com/photos/4750165/pexels-photo-4750165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "stars": 5
-    }
+
   ]
 }

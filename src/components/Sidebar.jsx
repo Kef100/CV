@@ -73,8 +73,8 @@ function Sidebar() {
   }, []);
 
   return (
-    <div className="w-full xl:sticky xl:top-0 bg-accent-500 xl:h-screen xl:w-96 text-white shadow-xl">
-      <div className="flex flex-col justify-between h-full">
+    <div className="w-full xl:sticky xl:top-0 bg-accent-500 h-screen xl:w-96 text-white shadow-xl">
+      <div className="flex flex-col justify-between w-full min-h-screen h-full">
         <div className="flex flex-col gap-y-1 items-center justify-center w-full py-6 bg-accent-400">
           <div className="relative pb-4">
             <span className="flex h-4 w-4 absolute bottom-3 right-1">
@@ -88,7 +88,7 @@ function Sidebar() {
           <h3 className="text-neutral-400">UI/UX Designer</h3>
         </div>
         <div className="flex flex-col px-6 py-4 gap-y-2">
-          <div className="border-b border-neutral-600 py-4 hidden flex-col gap-y-2 xl:flex">
+          <div className="border-b border-neutral-600 hidden flex-col gap-y-2 xl:flex">
             <div className="flex flex-col xl:flex-row xl:justify-between items-center">
               <p className="font-medium">Residence</p>
               <p className="text-neutral-400">The Netherlands</p>
@@ -106,9 +106,9 @@ function Sidebar() {
             <h2 className="text-lg font-bold">Languages</h2>
             <div className="grid grid-cols-3 gap-x-4">
               {languages.map((language) => (
-                <div className="p-2 flex flex-col gap-y-2 justify-center items-center">
-                  <div className="relative w-20 h-full">
-                    <p className="absolute text-sm top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">{language.level}</p>
+                <div key={language.language} className="p-2 flex flex-col gap-y-2 justify-center items-center">
+                  <div className="relative w-20 lg:w-14 3xl:w-20 h-full">
+                    <p className="absolute text-sm lg:text-xs 3xl:text-sm top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">{language.level}</p>
                     <svg viewBox="0 0 100 100" className="-rotate-90">
                       <circle
                         className="fill-none stroke-neutral-400"

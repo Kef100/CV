@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flag, Smile, Users } from 'react-feather';
+import { Box, Smile, Users } from 'react-feather';
 import data from '../data.json';
 
 function Properties() {
@@ -9,8 +9,8 @@ function Properties() {
         return <Smile />;
       case 'users':
         return <Users />;
-      case 'flag':
-        return <Flag />;
+      case 'box':
+        return <Box />;
       default:
         return null;
     }

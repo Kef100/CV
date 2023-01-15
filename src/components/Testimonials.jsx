@@ -4,7 +4,8 @@ import data from '../data.json';
 
 function Testimonials() {
   return (
-    <div className="flex flex-col gap-y-3 pt-10 pb-20">
+    data.testimonials.length > 0 && (
+    <div className="flex flex-col gap-y-3 pt-10">
       <h2 className="text-white font-bold text-2xl pb-4">Testimonials</h2>
       <div className="grid xl:grid-cols-3 gap-16">
         {data.testimonials.map((testimonial) => (
@@ -38,6 +39,7 @@ function Testimonials() {
         ))}
       </div>
     </div>
+    )
   );
 }
 

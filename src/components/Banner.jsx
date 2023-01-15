@@ -2,6 +2,11 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 
 function Banner() {
+  const handleClick = () => {
+    const element = document.getElementById('experience');
+    element.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="w-full h-[50vh] 2xl:h-[30vh] grid grid-cols-4 relative bg-banner bg-cover shadow-xl border-b-2 border-sky-400">
       <div className="col-span-4 lg:col-span-4 2xl:col-span-3 z-20 py-14 px-6 xl:px-10 xl:py-10">
@@ -32,22 +37,17 @@ function Banner() {
               &gt;
             </div>
           </div>
-          <a
-            href="#experience"
-            className="bg-sky-400 text-accent-500/80 font-bold tracking-wider px-6 py-4
-              w-fit uppercase text-sm transition-all hover:-translate-y-1 hover:bg-sky-300"
+          <button
+            type="button"
+            onClick={handleClick}
+            className="bg-sky-500 text-white rounded-md font-bold tracking-wider px-6 py-4
+              w-fit uppercase text-sm transition-all hover:-translate-y-1 hover:bg-sky-400"
           >
             Explore now
-          </a>
+          </button>
         </div>
       </div>
       <div className="z-20 hidden 2xl:block 2xl:col-span-2 2xl:col-span-1 relative">
-        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="195" className="absolute top-0 lg:left-0 xl:left-auto xl:right-96">
-          <polygon points="0,0 195,0 195,195" className="fill-white" />
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="195" className="absolute bottom-0 right-12">
-          <polygon points="0,0 195,0 0,195" className="fill-sky-400" />
-        </svg>
         <img src="./standing.png" className="absolute bottom-0 right-12 h-[37vh]" alt="me standing" />
       </div>
       <div className="w-full h-full bg-accent-500/80 top-0 left-0 absolute z-10" />

@@ -1,5 +1,4 @@
 import React from 'react';
-import Mouse from './Mouse';
 import data from '../data.json';
 
 function Education() {
@@ -22,9 +21,6 @@ function Education() {
             </div>
           </div>
         ))}
-      </div>
-      <div className="flex items-center w-full justify-center">
-        <Mouse />
       </div>
     </div>
   );
