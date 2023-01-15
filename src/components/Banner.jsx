@@ -48,7 +48,7 @@ function Banner() {
         </div>
       </div>
       <div className="z-20 hidden xl:block xl:col-span-2 3xl:col-span-1 relative">
-        <img src="./standing.png" className="absolute bottom-0 right-12 xl:h-[67vh] 3xl:h-[37vh]" alt="me standing" />
+        <img src="./standing.png" className="absolute bottom-0 right-12 2xl:h-[67vh] 3xl:h-[37vh]" alt="me standing" />
       </div>
       <div className="w-full h-full bg-accent-500/80 top-0 left-0 absolute z-10" />
     </div>
