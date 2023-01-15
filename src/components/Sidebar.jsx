@@ -87,7 +87,7 @@ function Sidebar() {
           <h3 className="text-neutral-400">Front-end Developer</h3>
           <h3 className="text-neutral-400">UI/UX Designer</h3>
         </div>
-        <div className="flex flex-col px-6 py-4 gap-y-2">
+        <div className="flex flex-col px-6 py-4 gap-y-2 overflow-y-auto pb-20 relative">
           <div className="hidden border-neutral-600 border-b pb-4 flex-col gap-y-2 xl:flex">
             <div className="flex flex-col xl:flex-row xl:justify-between items-center">
               <p className="font-medium">Residence</p>
@@ -168,7 +168,7 @@ function Sidebar() {
             </a>
           </div>
         </div>
-        <div className="flex gap-x-4 items-center justify-center w-full bg-accent-400 py-6 text-neutral-400">
+        <div className="flex absolute bottom-0 left-0 gap-x-4 items-center justify-center w-full bg-accent-400 py-6 text-neutral-400">
           <a href="https://www.linkedin.com/in/kevin-vink2/" target="_blank" aria-label="linkedin" className="hover:text-sky-400 transition-all" rel="noreferrer"><Linkedin size={20} /></a>
           <a href="https://github.com/Kef100" target="_blank" aria-label="github" className="hover:text-sky-400 transition-all" rel="noreferrer"><GitHub size={20} /></a>
           <a href="mailto:kevinvink2002@gmail.com" target="_blank" aria-label="mail" className="hover:text-sky-400 transition-all" rel="noreferrer"><Mail size={20} /></a>
