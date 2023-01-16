@@ -102,7 +102,7 @@ function Sidebar() {
               <p className="text-neutral-400">{age}</p>
             </div>
           </div>
-          <div className="py-4 flex-col gap-y-2 border-b border-neutral-600 hidden xl:flex">
+          <div className="py-4 flex-col gap-y-2 border-b border-neutral-600 hidden 2xl:flex">
             <h2 className="text-lg font-bold">Languages</h2>
             <div className="grid grid-cols-3 gap-x-4">
               {languages.map((language) => (
