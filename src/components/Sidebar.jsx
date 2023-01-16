@@ -8,10 +8,8 @@ const radius = 45;
 const dashArray = 2 * pi * radius;
 
 const skills = [
-  'React Redux & TypeScript',
-  'TailwindCSS',
+  'Javascript & TypeScript',
   'MongoDB, SQL & MYSQL',
-  'Laravel',
   'Java & C#',
 ];
 
