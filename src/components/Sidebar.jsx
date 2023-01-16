@@ -8,17 +8,15 @@ const radius = 45;
 const dashArray = 2 * pi * radius;
 
 const skills = [
-  'React Redux',
-  'JavaScript, TypeScript',
+  'React Redux & TypeScript',
   'TailwindCSS',
   'MongoDB, SQL & MYSQL',
   'Laravel',
-  'Java',
+  'Java & C#',
 ];
 
 const knowledges = [
   'GIT Knowledge',
-  'Jest',
   'Agile & Scrum',
   'MVC Framework',
   'OOP Development',
@@ -75,7 +73,7 @@ function Sidebar() {
   return (
     <div className="w-full xl:sticky xl:top-0 bg-accent-500 h-full min-h-screen xl:w-96 text-white shadow-xl">
       <div className="flex flex-col w-full min-h-screen h-full relative">
-        <div className="flex flex-col gap-y-1 items-center justify-center w-full py-6 bg-accent-400">
+        <div className="flex 2xl:flex-col gap-y-1 items-center justify-center w-full py-6 bg-accent-400">
           <div className="relative pb-4">
             <span className="flex h-4 w-4 absolute bottom-3 right-1">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75" />
@@ -83,9 +81,11 @@ function Sidebar() {
             </span>
             <img src="./profile.png" alt="avatar" className="rounded-full w-20 h-20 ring-2 ring-offset-4 ring-offset-accent-400 ring-sky-400 bg-sky-400/10" />
           </div>
-          <h1 className="text-lg font-bold">Kevin Vink</h1>
-          <h3 className="text-neutral-400">Front-end Developer</h3>
-          <h3 className="text-neutral-400">UI/UX Designer</h3>
+          <div>
+            <h1 className="text-lg font-bold">Kevin Vink</h1>
+            <h3 className="text-neutral-400">Front-end Developer</h3>
+            <h3 className="text-neutral-400">UI/UX Designer</h3>
+          </div>
         </div>
         <div className="flex flex-col px-6 py-4 gap-y-2 lg:overflow-y-auto h-full pb-20 relative">
           <div className="hidden border-neutral-600 border-b pb-4 flex-col gap-y-2 xl:flex">
@@ -141,8 +141,8 @@ function Sidebar() {
               {skills.map((skill, index) => (
                 <li
                   key={skill}
-                  className={`relative flex items-center gap-x-2 text-sm 
-                  ${index !== skills.length - 1 && 'after:h-3 after:w-px after:bg-sky-400 after:absolute after:left-[7px] after:top-[17px]'}`}
+                  className={`relative flex items-center gap-x-2 text-xs 2xl:text-base
+                  ${index !== skills.length - 1 && 'after:h-2 2xl:after:h-3 after:w-px after:bg-sky-400 after:absolute after:left-[7px] after:top-[14px] 2xl:after:top-[17px]'}`}
                 >
                   <GitCommit size={15} className="text-sky-400 rotate-90" />
                   {skill}
@@ -154,7 +154,7 @@ function Sidebar() {
             <h2 className="text-lg font-bold">Knowledge</h2>
             <ul className="flex flex-col gap-y-1">
               {knowledges.map((knowledge) => (
-                <li key={knowledge} className="flex items-center gap-x-2 text-sm text-neutral-400 tracking-wide">
+                <li key={knowledge} className="flex items-center gap-x-2 text-xs 2xl:text-base text-neutral-400 tracking-wide">
                   <Check size={12} strokeWidth={4} className="text-sky-400" />
                   {knowledge}
                 </li>
