@@ -21,7 +21,7 @@ function Properties() {
       <h2 className="text-white font-bold text-2xl pb-4">Properties</h2>
       <div className="grid xl:grid-cols-3 gap-16">
         {data.properties.map((property) => (
-          <div key={property.name} className="w-full h-full bg-accent-300 px-6 py-4 flex flex-col gap-y-4 relative">
+          <div key={property.name} className="w-full h-full bg-accent-300 px-6 py-4 flex flex-col gap-y-4 relative min-h-[10rem]">
             <h3 className="text-white font-bold pt-4">{property.name}</h3>
             <p className="absolute bg-sky-400/75 w-fit text-white p-2 rounded-full -top-4 right-4 shadow-lg">{chooseIcon(property.icon)}</p>
             <p className="text-neutral-400">{property.description}</p>
