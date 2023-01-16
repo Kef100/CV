@@ -3,7 +3,7 @@ import data from '../data.json';
 
 function Education() {
   return (
-    <div className="flex flex-col gap-y-3 pt-8">
+    <div className="flex flex-col gap-y-3 pt-8 overflow-hidden">
       <h2 className="text-white font-bold text-2xl pb-4">Education</h2>
       <div className="grid xl:grid-cols-3 gap-16">
         {data.educations.map((education) => (

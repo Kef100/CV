@@ -16,7 +16,7 @@ function Preferences() {
     }
   };
   return (
-    <div className="flex flex-col gap-y-3">
+    <div className="flex flex-col gap-y-3 overflow-hidden">
       <h2 className="text-white font-bold text-2xl pb-4">Preferences</h2>
       <div className="grid xl:grid-cols-3 gap-16">
         {data.preferences.map((preference) => (
