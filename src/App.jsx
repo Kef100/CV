@@ -16,7 +16,7 @@ function App() {
       <Lint />
       <Sidebar />
       <div className="w-full h-full min-h-screen bg-accent-600 p-6 xl:px-10 xl:py-6 relative overflow-hidden">
-        <div className="pb-10">
+        <div className="pb-10 flex flex-col gap-y-10 h-full">
           <Banner />
           <Information />
           <WorkExperience />
