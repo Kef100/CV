@@ -73,7 +73,7 @@ function Sidebar() {
   return (
     <div className="w-full xl:sticky xl:top-0 bg-accent-500 h-full min-h-screen xl:w-96 text-white shadow-xl">
       <div className="flex flex-col w-full min-h-screen h-full relative">
-        <div className="flex 2xl:flex-col gap-y-1 items-center justify-center w-full py-6 bg-accent-400">
+        <div className="flex flex-col gap-y-1 items-center justify-center w-full py-6 bg-accent-400">
           <div className="relative pb-4">
             <span className="flex h-4 w-4 absolute bottom-3 right-1">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75" />
