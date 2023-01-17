@@ -56,19 +56,16 @@ module.exports = {
           '0%': {
             left: '100%',
           },
-          '90%': {
-            left: '-10%',
-          },
           '100%': {
-            left: '-100%',
+            left: '-50%',
           },
         },
       },
       animation: {
         scroll: 'scroll 3s ease infinite',
         float: 'float 3s ease-in-out infinite',
-        fly: 'fly 12s linear infinite',
-        'fly-reverse': 'fly 12s linear reverse 5s infinite',
+        fly: 'fly 15s linear infinite',
+        'fly-reverse': 'fly 15s linear reverse 5s infinite',
       },
     },
   },

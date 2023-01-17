@@ -13,3 +13,9 @@
 .image-flip {
   transform: scaleX(-1);
 }
+
+@media (max-width: 1024px) {
+  .animate-fly, .animate-fly-reverse {
+    animation-duration: 5s;
+  }
+}
