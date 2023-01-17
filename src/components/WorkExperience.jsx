@@ -8,9 +8,12 @@ function WorkExperience() {
 
   return (
     <div id="experience" className="flex flex-col gap-y-3">
-      <h2 className="dark:text-white font-bold text-2xl pb-4">{t('work_experience.title')}</h2>
+      <div className="flex flex-col">
+        <h2 className="dark:text-white font-bold text-2xl">{t('work_experience.title')}</h2>
+        <p className="text-neutral-600 dark:text-gray-300 pb-4">{t('work_experience.subtitle')}</p>
+      </div>
       <div className="grid md:grid-cols-2 2xl:grid-cols-3 gap-10">
-        {t('projects', { returnObjects: true }).map((project) => (
+        {t('work_experience.projects', { returnObjects: true }).map((project) => (
           <div
             key={project.title}
             className="w-full h-96 z-20 transition-all bg-white dark:bg-neutral-800 rounded-xl
