@@ -36,7 +36,7 @@ function App() {
     <I18nextProvider i18n={i18next}>
       <div className="flex flex-col font-roboto relative w-full h-full min-h-screen overflow-hidden">
         <Landing />
-        <div className="pb-10 flex p-6 flex-col gap-y-10 h-full">
+        <div className="pb-10 flex p-6 flex-col gap-y-10 h-full px-20 lg:px-32 dark:bg-neutral-800">
           <WorkExperience />
           <Education />
           <Properties />

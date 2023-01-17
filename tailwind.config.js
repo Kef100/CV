@@ -44,9 +44,31 @@ module.exports = {
             top: '0.5rem',
           },
         },
+        float: {
+          '0%, 100%': {
+            transform: 'translatey(0)',
+          },
+          '50%': {
+            transform: 'translatey(-0.5rem)',
+          },
+        },
+        fly: {
+          '0%': {
+            left: '100%',
+          },
+          '90%': {
+            left: '-10%',
+          },
+          '100%': {
+            left: '-100%',
+          },
+        },
       },
       animation: {
         scroll: 'scroll 3s ease infinite',
+        float: 'float 3s ease-in-out infinite',
+        fly: 'fly 12s linear infinite',
+        'fly-reverse': 'fly 12s linear reverse 5s infinite',
       },
     },
   },

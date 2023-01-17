@@ -1,4 +1,9 @@
 {
+  "landing": {
+    "title": "Developer & Designer",
+    "description": "About me",
+    "cta": "Explore Now"
+  },
   "information": {
     "years": {
       "title": "Years Experience",
