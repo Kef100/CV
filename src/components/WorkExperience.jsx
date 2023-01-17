@@ -22,9 +22,11 @@ function WorkExperience() {
             opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center"
             >
               <a
+                target="_blank"
                 className="p-2 ring-2 ring-sky-500 bg-sky-500/25 rounded-full hover:scale-105 transition-all"
                 aria-label={project.title}
                 href={project.website}
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faGlobe} size="xl" className="dark:text-white text-sky-500" />
               </a>
