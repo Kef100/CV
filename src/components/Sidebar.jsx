@@ -77,7 +77,11 @@ function Sidebar() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-full w-full bg-sky-500" />
             </span>
-            <img src="./profile.png" alt="avatar" className="rounded-full w-20 h-20 ring-2 ring-offset-4 ring-offset-accent-400 ring-sky-400 bg-sky-400/10" />
+            <img
+              src="./profile.png"
+              alt="avatar"
+              className="rounded-full w-20 h-20 ring-2 ring-offset-4 ring-offset-accent-400 ring-sky-400 bg-sky-400/10"
+            />
           </div>
           <div>
             <h1 className="text-lg font-bold">Kevin Vink</h1>
@@ -140,7 +144,8 @@ function Sidebar() {
                 <li
                   key={skill}
                   className={`relative flex items-center gap-x-2 text-xs 2xl:text-base
-                  ${index !== skills.length - 1 && 'after:h-2 2xl:after:h-3 after:w-px after:bg-sky-400 after:absolute after:left-[7px] after:top-[14px] 2xl:after:top-[17px]'}`}
+                  ${index !== skills.length - 1 && 'after:h-2 2xl:after:h-3 after:w-px after:bg-sky-400'
+                  + 'after:absolute after:left-[7px] after:top-[14px] 2xl:after:top-[17px]'}`}
                 >
                   <GitCommit size={15} className="text-sky-400 rotate-90" />
                   {skill}
@@ -160,16 +165,46 @@ function Sidebar() {
             </ul>
           </div>
           <div className="text-neutral-400 py-4 hover:text-sky-400 w-fit transition-all">
-            <a href="https://www.linkedin.com/in/kevin-vink2/" target="_blank" className="flex gap-x-2 items-center border-b border-transparent hover:border-sky-400 pb-1" aria-label="download cv" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/kevin-vink2/"
+              target="_blank"
+              className="flex gap-x-2 items-center border-b border-transparent hover:border-sky-400 pb-1"
+              aria-label="download cv"
+              rel="noreferrer"
+            >
               <Send size={20} />
               Send me a message
             </a>
           </div>
         </div>
         <div className="flex absolute bottom-0 left-0 gap-x-4 items-center justify-center w-full bg-accent-400 py-6 text-neutral-400">
-          <a href="https://www.linkedin.com/in/kevin-vink2/" target="_blank" aria-label="linkedin" className="hover:text-sky-400 transition-all" rel="noreferrer"><Linkedin size={20} /></a>
-          <a href="https://github.com/Kef100" target="_blank" aria-label="github" className="hover:text-sky-400 transition-all" rel="noreferrer"><GitHub size={20} /></a>
-          <a href="mailto:kevinvink2002@gmail.com" target="_blank" aria-label="mail" className="hover:text-sky-400 transition-all" rel="noreferrer"><Mail size={20} /></a>
+          <a
+            href="https://www.linkedin.com/in/kevin-vink2/"
+            target="_blank"
+            aria-label="linkedin"
+            className="hover:text-sky-400 transition-all"
+            rel="noreferrer"
+          >
+            <Linkedin size={20} />
+          </a>
+          <a
+            href="https://github.com/Kef100"
+            target="_blank"
+            aria-label="github"
+            className="hover:text-sky-400 transition-all"
+            rel="noreferrer"
+          >
+            <GitHub size={20} />
+          </a>
+          <a
+            href="mailto:kevinvink2002@gmail.com"
+            target="_blank"
+            aria-label="mail"
+            className="hover:text-sky-400 transition-all"
+            rel="noreferrer"
+          >
+            <Mail size={20} />
+          </a>
         </div>
       </div>
     </div>

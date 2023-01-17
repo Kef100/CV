@@ -17,7 +17,11 @@ function Testimonials() {
                 className="w-16 h-16 object-cover rounded-full"
               />
               <h3 className="text-white font-bold pt-4">{testimonial.name}</h3>
-              <p className="absolute bg-sky-400 transition-all dark:bg-sky-400/75 w-fit text-white px-2 py-1 rounded-md -top-4 right-4 shadow-lg">{testimonial.role}</p>
+              <p className="absolute bg-sky-400 transition-all dark:bg-sky-400/75 w-fit
+              text-white px-2 py-1 rounded-md -top-4 right-4 shadow-lg"
+              >
+                {testimonial.role}
+              </p>
             </div>
             <p className="text-neutral-400">{testimonial.description}</p>
             <div className="flex flex-wrap gap-2">
