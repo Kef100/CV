@@ -1,4 +1,7 @@
 {
+  "global": {
+    "current": "Current"
+  },
   "landing": {
     "title": "Developer & Designer",
     "description": "I'm a developer and spare time designer based in Gelderland, The Netherlands. I'm currently working at Mr Smith as a Developer.",
@@ -67,6 +70,33 @@
         "image": "./jobs/suppliance/bg.jpg",
         "image_style": "from-emerald-800 to-emerald-700",
         "logo_style": "h-16"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "Below you will find an overview of my followed educations",
+    "institutions": [
+      {
+        "institution": "HAN University of Applied Sciences",
+        "location": "Arnhem, Netherlands",
+        "degree": "Bachelor",
+        "description": "Currently I am studying at the HAN University in Arnhem to become a Web Developer, my projected time to finish is 2025. So i've learned alot about React, Object Oriented Programming, testing and working in a team for a school project.",
+        "year": "2021 - 2025"
+      },
+      {
+        "institution": "ROC Nijmegen",
+        "location": "Nijmegen, Netherlands",
+        "degree": "Associate Degree",
+        "description": "I studied at the ROC in Nijmegen for the Associate Degree in Software Development, this thought me the basics about programming and its properties, the first languages i learned were HTML, CSS, Javascript, PHP, Java and C#.",
+        "year": "2018 - 2021"
+      },
+      {
+        "institution": "Montesorri College",
+        "location": "Nijmegen, Netherlands",
+        "degree": "High School",
+        "description": "I studied at Montesorri College in Nijmegen for my High School Diploma, this taught me all the basics like Math, English, Dutch, History, Geography, Physics, Chemistry, Biology, etc.",
+        "year": "2014 - 2018"
       }
     ]
   }

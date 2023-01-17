@@ -13,12 +13,19 @@ function WorkExperience() {
         <p className="text-neutral-600 dark:text-gray-300 pb-4">{t('work_experience.subtitle')}</p>
       </div>
       <div className="grid md:grid-cols-2 2xl:grid-cols-3 gap-10">
-        {t('work_experience.projects', { returnObjects: true }).map((project) => (
+        {t('work_experience.projects', { returnObjects: true }).map((project, index) => (
           <div
             key={project.title}
             className="w-full h-96 z-20 transition-all bg-white dark:bg-neutral-800 rounded-xl
             group flex items-center justify-center relative overflow-hidden bg-cover"
           >
+            {index === 0 && (
+              <div className="absolute top-5 text-sm shadow-md -left-8 bg-gradient-to-r -rotate-45
+              xl:text-base font-bold px-10 py-px from-sky-500 to-sky-400 text-white z-20"
+              >
+                {t('global.current')}
+              </div>
+            )}
             <div className={`absolute inset-0 transition-all z-10 bg-gradient-to-br opacity-50 ${project.image_style}`} />
             <div className="absolute inset-0 transition-all duration-300 gap-5 z-10 bg-white dark:bg-neutral-800
             opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center"
