@@ -1,33 +1,53 @@
 import React from 'react';
-import Sidebar from './components/Sidebar';
-import Banner from './components/Banner';
-import Information from './components/Information';
+import i18next from 'i18next';
+import { I18nextProvider, initReactI18next } from 'react-i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
 import WorkExperience from './components/WorkExperience';
 import Education from './components/Education';
 import Properties from './components/Properties';
 import Preferences from './components/Preferences';
 import Testimonials from './components/Testimonials';
-import Footer from './components/Footer';
-import Lint from './components/Lint';
+import Landing from './components/Landing';
+import ScrollTop from './components/ScrollTop';
+import DarkMode from './components/DarkMode';
+import LanguageSwitch from './components/LanguageSwitch';
+
+import commonNL from './translations/nl/common.json';
+import commonEN from './translations/en/common.json';
+
+i18next
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    interpolation: { escapeValue: false }, // React already does escaping
+    fallbackLng: 'en',
+    resources: {
+      en: {
+        common: commonEN, // 'common' is our custom namespace
+      },
+      nl: {
+        common: commonNL,
+      },
+    },
+  });
 
 function App() {
   return (
-    <div className="flex flex-col xl:flex-row font-roboto bg-accent-600 relative">
-      <Lint />
-      <Sidebar />
-      <div className="w-full h-full min-h-screen bg-accent-600 p-6 xl:px-10 xl:py-6 relative overflow-hidden">
-        <div className="pb-10 flex flex-col gap-y-10 h-full">
-          <Banner />
-          <Information />
+    <I18nextProvider i18n={i18next}>
+      <div className="flex flex-col font-roboto relative w-full h-full min-h-screen overflow-hidden">
+        <Landing />
+        <div className="pb-10 flex p-6 flex-col gap-y-10 h-full">
           <WorkExperience />
           <Education />
           <Properties />
           <Preferences />
           <Testimonials />
         </div>
-        <Footer />
       </div>
-    </div>
+      <ScrollTop />
+      <DarkMode />
+      <LanguageSwitch />
+    </I18nextProvider>
   );
 }
 

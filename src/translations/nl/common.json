@@ -1,0 +1,16 @@
+{
+  "information": {
+    "years": {
+      "title": "Jaren Ervaring",
+      "value": 6
+    },
+    "projects": {
+      "title": "Projecten",
+      "value": 10
+    },
+    "worked_jobs": {
+      "title": "Gewerkte Banen",
+      "value": 5
+    }
+  }
+}

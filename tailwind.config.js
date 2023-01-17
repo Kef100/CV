@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
   ],
@@ -22,6 +23,7 @@ module.exports = {
       },
       backgroundImage: {
         banner: "url('../public/banner.jpg')",
+        landing: "url('../public/aleksandar-pasaric.jpg')",
       },
       keyframes: {
         scroll: {

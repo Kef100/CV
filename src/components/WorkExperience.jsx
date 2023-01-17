@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-feather';
 import data from '../data.json';
-import Mouse from './Mouse';
+// import Mouse from './Mouse';
 
 function WorkExperience() {
   return (
@@ -32,9 +32,9 @@ function WorkExperience() {
           </div>
         ))}
       </div>
-      <div className="flex items-center w-full justify-center">
-        <Mouse />
-      </div>
+      {/* <div className="flex items-center w-full justify-center"> */}
+      {/*  <Mouse /> */}
+      {/* </div> */}
     </div>
   );
 }
