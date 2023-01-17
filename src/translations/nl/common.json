@@ -27,5 +27,52 @@
         "role": "Developer"
       }
     ]
-  }
+  },
+  "projects": [
+    {
+      "title": "Mr. Smith",
+      "website": "https://www.mrsmith.nl/",
+      "role": "Developer",
+      "logo": "./jobs/mrsmith/logo.png",
+      "image": "./jobs/mrsmith/bg.jpg",
+      "image_style": "from-white to-black",
+      "logo_style": "w-24"
+    },
+    {
+      "title": "Dimerce",
+      "website": "https://dimerce.com/",
+      "role": "Front-end Developer",
+      "logo": "./jobs/dimerce/logo.png",
+      "image": "./jobs/dimerce/bg2.jpg",
+      "image_style": "from-sky-500 to-blue-400",
+      "logo_style": "w-24"
+    },
+    {
+      "title": "De Diepen",
+      "website": "https://www.dediepen.nl/",
+      "role": "Ober",
+      "logo": "./jobs/dediepen/logo.png",
+      "image": "./jobs/dediepen/bg.jpg",
+      "image_style": "from-brown-500 to-black",
+      "logo_style": "h-24"
+    },
+    {
+      "title": "Qubiqx",
+      "website": "https://www.qubiqx.com/",
+      "role": "Web Developer",
+      "logo": "./jobs/qubiqx/logo.svg",
+      "image": "./jobs/qubiqx/bg.jpg",
+      "image_style": "from-orange-600 to-blue-600",
+      "logo_style": "w-20"
+    },
+    {
+      "title": "Suppliance B.V.",
+      "website": "https://www.suppliance.nl/",
+      "role": "Web Developer",
+      "logo": "./jobs/suppliance/logo.svg",
+      "image": "./jobs/suppliance/bg.jpg",
+      "image_style": "from-emerald-800 to-emerald-700",
+      "logo_style": "h-16"
+    }
+  ]
 }
