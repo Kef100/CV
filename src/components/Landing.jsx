@@ -8,7 +8,7 @@ function Landing() {
   const [t] = useTranslation('common');
   const handleClick = () => {
     const element = document.getElementById('experience');
-    element.scrollIntoView({ behavior: 'smooth' });
+    element.scrollIntoView({ behavior: 'smooth', block: 'center' });
   };
 
   return (
@@ -39,7 +39,7 @@ function Landing() {
         </div>
       </div>
       <div className="grid xl:grid-cols-3 gap-10">
-        <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5 w-full h-full flex flex-col lg:flex-row items-center justify-center p-6 rounded-lg">
+        <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5 w-full h-full flex flex-col lg:flex-row items-center justify-center p-8 rounded-lg">
           <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-fit p-4">
             <FontAwesomeIcon icon={faBarsProgress} size="xl" className="text-sky-500" />
           </div>
@@ -48,7 +48,7 @@ function Landing() {
             <p className="font-black text-3xl">{t('information.projects.value')}</p>
           </div>
         </div>
-        <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5 w-full h-full flex flex-col lg:flex-row items-center justify-center p-6 rounded-lg">
+        <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5 w-full h-full flex flex-col lg:flex-row items-center justify-center p-8 rounded-lg">
           <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-fit p-4">
             <FontAwesomeIcon icon={faBriefcase} size="xl" className="text-sky-500" />
           </div>
@@ -57,7 +57,7 @@ function Landing() {
             <p className="font-black text-3xl">{t('information.worked_jobs.value')}</p>
           </div>
         </div>
-        <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5 w-full h-full flex flex-col lg:flex-row items-center justify-center p-6 rounded-lg">
+        <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5 w-full h-full flex flex-col lg:flex-row items-center justify-center p-8 rounded-lg">
           <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-fit p-4">
             <FontAwesomeIcon icon={faGraduationCap} size="xl" className="text-sky-500" />
           </div>
