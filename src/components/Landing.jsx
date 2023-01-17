@@ -12,11 +12,11 @@ function Landing() {
   };
 
   return (
-    <div className="w-full h-full min-h-screen flex flex-col gap-y-5 p-6 px-20 lg:px-32 bg-gray-200 dark:bg-neutral-900 transition-all">
-      <div className="rounded-2xl flex-1 pt-36 pb-10 lg:p-0 bg-accent-300 bg-landing bg-cover w-full h-full relative overflow-hidden shadow-xl">
+    <div className="w-full h-full min-h-screen flex flex-col gap-y-5 p-6 px-12 lg:px-32 bg-gray-200 dark:bg-neutral-900 transition-all">
+      <div className="rounded-2xl flex-1 py-10 lg:p-0 bg-accent-300 bg-landing bg-cover w-full h-full relative overflow-hidden shadow-xl">
         <div className="absolute z-0 w-full h-full bg-black/25 top-0 left-0" />
-        <img src="./plane.png" alt="plane" className="absolute w-32 top-2 xl:top-20 -right-32 animate-fly" />
-        <img src="./plane.png" alt="plane" className="absolute w-32 top-16 xl:top-40 image-flip -left-32 animate-fly-reverse" />
+        <img src="./plane.png" alt="plane" className="hidden lg:block absolute w-32 top-2 xl:top-20 -right-32 animate-fly" />
+        <img src="./plane.png" alt="plane" className="hidden lg:block absolute w-32 top-16 xl:top-40 image-flip -left-32 animate-fly-reverse" />
 
         <div className="relative lg:absolute z-20 w-full h-full flex flex-col items-center justify-between py-4 px-10">
           <div className="w-full h-full flex justify-center items-center">

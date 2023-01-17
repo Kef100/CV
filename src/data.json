@@ -9,53 +9,37 @@
       "title": "Mr. Smith",
       "website": "https://www.mrsmith.nl/",
       "role": "Developer",
-      "description": "I am working at Mr Smith as a Developer. Mr Smith is a company that works in the maritime industry, they build multimedia entertainment systems for yachts. While I was working at Mr Smith I worked on bugs in multiple system and built new features for existing systems, like for example controlling an appleTV via HTTP, during this time the used programming languages were ReactJS (Redux) & Typescript.",
-      "tags": [
-        "Jul 2022 - Currently",
-        "React Redux",
-        "Typescript",
-        "MongoDB"
-      ]
+      "logo": "./jobs/mrsmith/logo.png",
+      "image": "./jobs/mrsmith/bg.jpg",
+      "image_style": "from-white to-black",
+      "logo_style": "w-24"
     },
     {
       "title": "Dimerce",
       "website": "https://dimerce.com/",
       "role": "Front-end Developer",
-      "description": "While working at Dimerce as a Front-end developer, I worked at the Front-end of webshops, websites and  web applications. I mainly worked in my vacation as I was busy with school during workdays. at Dimerce I enhanced my knowledge and learned new things about the following programming lanuguages: HTML, CSS, C# .NET CORE, Flutter, Javascript/Jquery & MYSQL.",
-      "tags": [
-        "Mei. 2021 - Mei 2022",
-        "Parttime",
-        "C# .NET CORE",
-        "Flutter",
-        "OOP Principles",
-        "GIT"
-      ]
+      "logo": "./jobs/dimerce/logo.png",
+      "image": "./jobs/dimerce/bg2.jpg",
+      "image_style": "from-sky-500 to-blue-400",
+      "logo_style": "w-24"
     },
     {
       "title": "De Diepen",
       "website": "https://www.dediepen.nl/",
       "role": "Waiter",
-      "description": "While working at De Diepen as a Waiter, I learned how to improve and develop my social skills, mature, communicate with colleagues and some other skills related to the catering industry. I got to know alot of new people during this job and also got alot better at speaking German because this restaurant was located about 5 minutes from the border of Germany.",
-      "tags": [
-        "Jun. 2018 - Jul 2021",
-        "Parttime",
-        "Social skills",
-        "Teamwork"
-      ]
+      "logo": "./jobs/dediepen/logo.png",
+      "image": "./jobs/dediepen/bg.jpg",
+      "image_style": "from-brown-500 to-black",
+      "logo_style": "h-24"
     },
     {
       "title": "Qubiqx",
       "website": "https://www.qubiqx.com/",
       "role": "Web Developer",
-      "description": "While doing my internship at Qubiqx as a Full-stack Developer, I built a web portal in Laravel, much of my time was spent fixing issues in Customers Databases. I learned alot about Laravel, Laragon and TailwindCSS during this internship. This also taught me how I can efficiently build websites using a front-end and a back-end framework. Finally Laravel taught me how handy an ORM (Object Relational Mapping) is.",
-      "tags": [
-        "Nov. 2020 - Apr 2021",
-        "Internship",
-        "Laravel",
-        "TailwindCSS",
-        "Blade",
-        "MVC"
-      ]
+      "logo": "./jobs/qubiqx/logo.svg",
+      "image": "./jobs/qubiqx/bg.jpg",
+      "image_style": "from-orange-600 to-blue-600",
+      "logo_style": "w-20"
     },
     {
       "title": "Suppliance B.V.",
@@ -69,7 +53,11 @@
         "MYSQL",
         "HTML/CSS",
         "JavaScript"
-      ]
+      ],
+      "logo": "./jobs/suppliance/logo.svg",
+      "image": "./jobs/suppliance/bg.jpg",
+      "image_style": "from-emerald-800 to-emerald-700",
+      "logo_style": "h-16"
     }
   ],
   "educations": [

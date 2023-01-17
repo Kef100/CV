@@ -19,6 +19,13 @@
     }
   },
   "work_experience": {
-    "title": "Werkervaring"
+    "title": "Werkervaring",
+    "projects": [
+      {
+        "title": "Mr. Smith",
+        "website": "https://www.mrsmith.nl/",
+        "role": "Developer"
+      }
+    ]
   }
 }
