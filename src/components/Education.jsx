@@ -9,7 +9,7 @@ function Education() {
         {data.educations.map((education) => (
           <div key={education.institution} className="w-full h-full bg-accent-300 px-6 py-4 flex flex-col gap-y-4 relative">
             <h3 className="text-white font-bold pt-4">{education.institution}</h3>
-            <p className="absolute bg-sky-400/75 w-fit text-white px-2 py-1 rounded-md -top-4 right-4 shadow-lg">{education.location}</p>
+            <p className="absolute bg-sky-400 transition-all dark:bg-sky-400/75 w-fit text-white px-2 py-1 rounded-md -top-4 right-4 shadow-lg">{education.location}</p>
             <p className="text-neutral-400">{education.description}</p>
             <div className="flex flex-wrap gap-2">
               <span className="bg-accent-600 w-fit text-center text-white px-2 py-1 rounded-md">

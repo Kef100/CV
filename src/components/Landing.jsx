@@ -40,7 +40,7 @@ function Landing() {
       </div>
       <div className="grid lg:grid-cols-3 gap-5">
         <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-x-5 w-full h-full flex items-center justify-center p-6 rounded-xl">
-          <div className="rounded-full bg-sky-100 w-fit p-4">
+          <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-fit p-4">
             <FontAwesomeIcon icon={faBarsProgress} size="xl" className="text-sky-500" />
           </div>
           <div className="flex flex-col">
@@ -49,7 +49,7 @@ function Landing() {
           </div>
         </div>
         <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-x-5 w-full h-full flex items-center justify-center p-6 rounded-xl">
-          <div className="rounded-full bg-sky-100 w-fit p-4">
+          <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-fit p-4">
             <FontAwesomeIcon icon={faBriefcase} size="xl" className="text-sky-500" />
           </div>
           <div className="flex flex-col">
@@ -58,7 +58,7 @@ function Landing() {
           </div>
         </div>
         <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all- gap-x-5 w-full h-full flex items-center justify-center p-6 rounded-xl">
-          <div className="rounded-full bg-sky-100 w-fit p-4">
+          <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-fit p-4">
             <FontAwesomeIcon icon={faGraduationCap} size="xl" className="text-sky-500" />
           </div>
           <div className="flex flex-col">

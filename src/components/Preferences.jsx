@@ -22,7 +22,7 @@ function Preferences() {
         {data.preferences.map((preference) => (
           <div key={preference.name} className="w-full h-full bg-accent-300 px-6 py-4 flex flex-col gap-y-4 relative min-h-[15rem] lg:min-h-0">
             <h3 className="text-white font-bold pt-4">{preference.name}</h3>
-            <p className="absolute bg-sky-400/75 w-fit text-white p-2 rounded-full -top-4 right-4 shadow-lg">{chooseIcon(preference.icon)}</p>
+            <p className="absolute bg-sky-400 transition-all dark:bg-sky-400/75 w-fit text-white p-2 rounded-full -top-4 right-4 shadow-lg">{chooseIcon(preference.icon)}</p>
             <p className="text-neutral-400">{preference.description}</p>
           </div>
         ))}
