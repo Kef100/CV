@@ -4,7 +4,7 @@ import data from '../data.json';
 function Education() {
   return (
     <div className="flex flex-col gap-y-3 pt-8 overflow-hidden">
-      <h2 className="text-white font-bold text-2xl pb-4">Education</h2>
+      <h2 className="dark:text-white font-bold text-2xl pb-4">Education</h2>
       <div className="grid xl:grid-cols-3 gap-16">
         {data.educations.map((education) => (
           <div key={education.institution} className="w-full h-full bg-accent-300 px-6 py-4 flex flex-col gap-y-4 relative">

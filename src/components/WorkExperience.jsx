@@ -6,7 +6,7 @@ import data from '../data.json';
 function WorkExperience() {
   return (
     <div id="experience" className="flex flex-col gap-y-3">
-      <h2 className="text-white font-bold text-2xl pb-4">Work Experience</h2>
+      <h2 className="dark:text-white font-bold text-2xl pb-4">Work Experience</h2>
       <div className="grid xl:grid-cols-3 gap-16">
         {data.projects.map((project) => (
           <div key={project.title} className="w-full h-full bg-accent-300 px-6 py-4 flex flex-col gap-y-4 relative">

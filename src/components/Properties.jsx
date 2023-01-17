@@ -18,7 +18,7 @@ function Properties() {
 
   return (
     <div className="flex flex-col gap-y-3 overflow-hidden">
-      <h2 className="text-white font-bold text-2xl pb-4">Properties</h2>
+      <h2 className="dark:text-white font-bold text-2xl pb-4">Properties</h2>
       <div className="grid xl:grid-cols-3 gap-16">
         {data.properties.map((property) => (
           <div key={property.name} className="w-full h-full bg-accent-300 px-6 py-4 flex flex-col gap-y-4 relative min-h-[15rem] lg:min-h-0">
