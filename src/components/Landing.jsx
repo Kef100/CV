@@ -76,7 +76,7 @@ function Landing() {
                 <a
                   href="https://www.linkedin.com/in/kevin-vink2/"
                   className="rounded-md outline-white px-4 py-3 dark:text-white
-                hover:-translate-y-1 transition-all bg-white dark:bg-neutral-900 text-lg text-black"
+                hover:-translate-y-1 transition-all bg-white text-center dark:bg-neutral-900 text-lg text-black"
                 >
                   {t('landing.contact')}
                 </a>

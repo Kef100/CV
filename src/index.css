@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 * {
-    scrollbar-width: none;
+  scrollbar-width: none;
+  overflow-anchor: none;
 }
 
 *::-webkit-scrollbar {
