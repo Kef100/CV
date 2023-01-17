@@ -45,7 +45,7 @@ function Landing() {
       </div>
       <div className="grid xl:grid-cols-3 gap-10">
         <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5
-        w-full h-full min-h-[12rem] flex flex-col lg:flex-row items-center justify-center p-8 rounded-lg"
+        w-full h-full min-h-[15rem] lg:min-h-0 flex flex-col lg:flex-row items-center justify-center p-8 rounded-lg"
         >
           <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-fit p-4">
             <FontAwesomeIcon icon={faBarsProgress} size="xl" className="text-sky-500" />
@@ -56,7 +56,7 @@ function Landing() {
           </div>
         </div>
         <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5
-        w-full h-full min-h-[12rem] flex flex-col lg:flex-row items-center justify-center p-8 rounded-lg"
+        w-full h-full min-h-[15rem] lg:min-h-0 flex flex-col lg:flex-row items-center justify-center p-8 rounded-lg"
         >
           <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-fit p-4">
             <FontAwesomeIcon icon={faBriefcase} size="xl" className="text-sky-500" />
@@ -67,7 +67,7 @@ function Landing() {
           </div>
         </div>
         <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5
-        w-full h-full min-h-[12rem] flex flex-col lg:flex-row items-center justify-center p-8 rounded-lg"
+        w-full h-full min-h-[15rem] lg:min-h-0 flex flex-col lg:flex-row items-center justify-center p-8 rounded-lg"
         >
           <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-fit p-4">
             <FontAwesomeIcon icon={faGraduationCap} size="xl" className="text-sky-500" />
