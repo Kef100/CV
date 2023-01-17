@@ -13,18 +13,18 @@ function LanguageSwitch() {
 
   return (
     <div
-      className={`fixed top-1/4 left-0 w-20 h-20 shadow-sm bg-white rounded-full overflow-hidden transition-all duration-300 -translate-x-1/2 z-40 flex ${!rotated ? 'rotate-180' : 'rotate-0'}`}
+      className={`fixed top-1/4 ring-2 ring-neutral-300 left-0 w-20 h-20 shadow-sm bg-white rounded-full overflow-hidden transition-all duration-300 -translate-x-1/2 z-40 flex ${!rotated ? 'rotate-180' : 'rotate-0'}`}
     >
       <button
         type="button"
-        className={`w-full h-full items-center justify-center rotate-180 uppercase ${language === 'nl' && 'bg-sky-500 text-white'}`}
+        className={`w-full h-full items-center justify-center rotate-180 uppercase transition-all delay-300 ${language === 'nl' && 'bg-sky-500 text-white'}`}
         onClick={() => changeLanguage('en')}
       >
         nl
       </button>
       <button
         type="button"
-        className={`w-full h-full items-center justify-center uppercase ${language === 'en' && 'bg-sky-500 text-white'}`}
+        className={`w-full h-full items-center justify-center uppercase transition-all delay-300 ${language === 'en' && 'bg-sky-500 text-white'}`}
         onClick={() => changeLanguage('nl')}
       >
         en
