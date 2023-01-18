@@ -130,7 +130,7 @@ function Landing() {
             className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5
         w-full h-full min-h-[15rem] lg:min-h-0 flex flex-col lg:flex-row items-center justify-center p-8 rounded-lg"
           >
-            <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-fit p-4">
+            <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-16 h-16 flex items-center justify-center p-4">
               <FontAwesomeIcon icon={pickIcon(item.icon)} size="xl" className="text-sky-500" />
             </div>
             <div className="flex flex-col items-center lg:items-start">

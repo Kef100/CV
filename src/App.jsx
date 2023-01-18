@@ -4,8 +4,8 @@ import { I18nextProvider, initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import WorkExperience from './components/WorkExperience';
 import Education from './components/Education';
-import Properties from './components/Properties';
-import Preferences from './components/Preferences';
+// import Properties from './components/Properties';
+// import Preferences from './components/Preferences';
 import Testimonials from './components/Testimonials';
 import Landing from './components/Landing';
 import ScrollTop from './components/ScrollTop';
@@ -42,8 +42,8 @@ function App() {
         >
           <WorkExperience />
           <Education />
-          <Properties />
-          <Preferences />
+          {/* <Properties /> */}
+          {/* <Preferences /> */}
           <Testimonials />
           <Footer />
         </div>
