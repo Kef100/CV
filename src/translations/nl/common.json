@@ -6,7 +6,7 @@
     "title": "Developer & Designer",
     "description": "Ik ben een Developer en in mijn vrije tijd houdt ik me ook bezig met designen. Ik kom uit Gelderland, Nederland. Op het moment werk ik bij Mr Smith als een Developer.",
     "cta": "Ontdek Nu",
-    "contact": "Contacteer Me"
+    "contact": "Neem contact op"
   },
   "information": {
     "years": {
@@ -83,8 +83,6 @@
         "degree": "Bachelor",
         "year": "2021 - 2025",
         "logo": "./schools/han/logo.svg",
-        "image": "./schools/han/bg.jpg",
-        "image_style": "from-pink-500 to-pink-300",
         "logo_style": "h-14"
       },
       {
@@ -93,8 +91,6 @@
         "degree": "MBO",
         "year": "2018 - 2021",
         "logo": "./schools/roc/logo.svg",
-        "image": "./schools/roc/bg.jpg",
-        "image_style": "from-orange-500 to-white",
         "logo_style": "h-10"
       },
       {
@@ -103,8 +99,6 @@
         "degree": "Middelbare School",
         "year": "2014 - 2018",
         "logo": "./schools/montesorri/logo.svg",
-        "image": "./schools/montesorri/bg.jpg",
-        "image_style": "from-orange-400 to-white",
         "logo_style": "h-32"
       }
     ]

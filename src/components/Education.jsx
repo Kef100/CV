@@ -24,8 +24,6 @@ function Education() {
               </div>
             )}
 
-            <div className={`absolute inset-0 transition-all z-10 bg-gradient-to-br opacity-40 ${education.image_style}`} />
-
             <div className="absolute inset-0 transition-all duration-300 gap-3 z-10 bg-white dark:bg-neutral-800
             opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center"
             >
@@ -34,14 +32,13 @@ function Education() {
               >
                 {education.year}
               </span>
-              <h3 className="font-bold text-2xl dark:text-white z-20">{education.institution}</h3>
+              <h3 className="font-bold text-2xl text-center dark:text-white z-20">{education.institution}</h3>
               <p className="dark:text-gray-300">{education.location}</p>
               <p className="dark:text-gray-300">{education.degree}</p>
             </div>
 
-            <img src={education.image} alt={education.institution} className="w-full h-full object-cover transition-all group-hover:scale-110" />
             <div className="absolute inset-0 flex items-center justify-center transition-all group-hover:z-0 z-20">
-              <img src={education.logo} alt={education.institution} className={education.logo_style} />
+              <img src={education.logo} alt={education.institution} className={`invert dark:invert-0 ${education.logo_style}`} />
             </div>
           </div>
         ))}

@@ -39,7 +39,7 @@ function WorkExperience() {
               >
                 <FontAwesomeIcon icon={faGlobe} size="xl" className="dark:text-white text-sky-500" />
               </a>
-              <h3 className="font-bold text-2xl dark:text-white z-20">{project.title}</h3>
+              <h3 className="font-bold text-2xl text-center dark:text-white z-20">{project.title}</h3>
               <p className="text-neutral-600 dark:text-gray-200">{project.role}</p>
             </div>
             <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-all group-hover:scale-110" />
