@@ -1,15 +1,43 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faBriefcase, faBarsProgress } from '@fortawesome/free-solid-svg-icons';
+import { faCity, faLocationDot, faUser } from '@fortawesome/free-solid-svg-icons';
 import { useTranslation } from 'react-i18next';
 import { GitHub, Linkedin, Mail } from 'react-feather';
 import Mouse from './Mouse';
 
 function Landing() {
-  const [t] = useTranslation('common');
+  const { t } = useTranslation('common');
   const handleClick = () => {
     const element = document.getElementById('experience');
     element.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const pickIcon = (icon) => {
+    switch (icon) {
+      case 'faCity':
+        return faCity;
+      case 'faLocationDot':
+        return faLocationDot;
+      case 'faUser':
+        return faUser;
+      default:
+        return null;
+    }
+  };
+
+  const checkForAge = (input) => {
+    if (input === 'age') {
+      const today = new Date();
+      const birthDate = new Date('2002-12-02');
+      let a = today.getFullYear() - birthDate.getFullYear();
+      const m = today.getMonth() - birthDate.getMonth();
+      if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        a -= 1;
+      }
+      return a;
+    }
+
+    return input;
   };
 
   return (
@@ -49,8 +77,17 @@ function Landing() {
           </a>
         </div>
 
-        <img src="./plane.png" alt="plane" className="hidden xl:block absolute w-32 top-2 xl:top-20 -right-32 animate-fly" />
-        <img src="./plane.png" alt="plane" className="hidden xl:block absolute w-32 top-16 xl:top-40 image-flip -left-32 animate-fly-reverse" />
+        <div className="hidden xl:block absolute w-32 top-2 xl:top-20 -right-32 animate-fly after:rounded-full after:absolute after:bg-gradient-to-r
+        from-white/50 to-transparent after:bottom-0.5 after:left-14 after:w-32 after:animate-contrail after:h-1"
+        >
+          <img src="./plane.png" alt="plane" className="w-full h-full" />
+        </div>
+
+        <div className="hidden xl:block absolute w-32 top-16 xl:top-40 image-flip -left-32 animate-fly-reverse after:w-32 after:animate-contrail
+        after:rounded-full after:absolute after:bg-gradient-to-r from-white/50 to-transparent after:bottom-0.5 after:left-14 after:h-1"
+        >
+          <img src="./plane.png" alt="plane" className="w-full h-full" />
+        </div>
 
         <div className="relative lg:absolute z-20 w-full h-full flex flex-col items-center justify-between py-4 px-10">
           <div className="w-full h-full flex justify-center items-center">
@@ -87,39 +124,21 @@ function Landing() {
         </div>
       </div>
       <div className="grid xl:grid-cols-3 gap-10">
-        <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5
+        {t('landing.information', { returnObjects: true }).map((item) => (
+          <div
+            key={item.title}
+            className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5
         w-full h-full min-h-[15rem] lg:min-h-0 flex flex-col lg:flex-row items-center justify-center p-8 rounded-lg"
-        >
-          <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-fit p-4">
-            <FontAwesomeIcon icon={faBarsProgress} size="xl" className="text-sky-500" />
+          >
+            <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-fit p-4">
+              <FontAwesomeIcon icon={pickIcon(item.icon)} size="xl" className="text-sky-500" />
+            </div>
+            <div className="flex flex-col items-center lg:items-start">
+              <p className="text-2xl">{item.title}</p>
+              <p className="font-black text-3xl">{checkForAge(item.value)}</p>
+            </div>
           </div>
-          <div className="flex flex-col items-center lg:items-start">
-            <p className="text-2xl">{t('information.projects.title')}</p>
-            <p className="font-black text-3xl">{t('information.projects.value')}</p>
-          </div>
-        </div>
-        <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5
-        w-full h-full min-h-[15rem] lg:min-h-0 flex flex-col lg:flex-row items-center justify-center p-8 rounded-lg"
-        >
-          <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-fit p-4">
-            <FontAwesomeIcon icon={faBriefcase} size="xl" className="text-sky-500" />
-          </div>
-          <div className="flex flex-col items-center lg:items-start">
-            <p className="text-2xl">{t('information.worked_jobs.title')}</p>
-            <p className="font-black text-3xl">{t('information.worked_jobs.value')}</p>
-          </div>
-        </div>
-        <div className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5
-        w-full h-full min-h-[15rem] lg:min-h-0 flex flex-col lg:flex-row items-center justify-center p-8 rounded-lg"
-        >
-          <div className="rounded-full dark:bg-sky-500/20 bg-sky-100 w-fit p-4">
-            <FontAwesomeIcon icon={faGraduationCap} size="xl" className="text-sky-500" />
-          </div>
-          <div className="flex flex-col items-center lg:items-start">
-            <p className="text-2xl">{t('information.years.title')}</p>
-            <p className="font-black text-3xl">{t('information.years.value')}</p>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );

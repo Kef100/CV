@@ -6,21 +6,24 @@
     "title": "Developer & Designer",
     "description": "Ik ben een Developer en in mijn vrije tijd houdt ik me ook bezig met designen. Ik kom uit Gelderland, Nederland. Op het moment werk ik bij Mr Smith als een Developer.",
     "cta": "Ontdek Nu",
-    "contact": "Neem contact op"
-  },
-  "information": {
-    "years": {
-      "title": "Jaren Ervaring",
-      "value": 6
-    },
-    "projects": {
-      "title": "Projecten",
-      "value": 10
-    },
-    "worked_jobs": {
-      "title": "Banen/Stages",
-      "value": 5
-    }
+    "contact": "Neem contact op",
+    "information": [
+      {
+        "title": "Residence",
+        "value": "Nederland",
+        "icon": "faLocationDot"
+      },
+      {
+        "title": "Stad",
+        "value": "Groesbeek",
+        "icon": "faCity"
+      },
+      {
+        "title": "Leeftijd",
+        "value": "age",
+        "icon": "faUser"
+      }
+    ]
   },
   "work_experience": {
     "title": "Werkervaring",

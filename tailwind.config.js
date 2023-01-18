@@ -79,12 +79,24 @@ module.exports = {
             left: '-50%',
           },
         },
+        width: {
+          '0%': {
+            width: '75%',
+          },
+          '50%': {
+            width: '100%',
+          },
+          '100%': {
+            width: '75%',
+          },
+        },
       },
       animation: {
         scroll: 'scroll 3s ease infinite',
         float: 'float 3s ease-in-out infinite',
         fly: 'fly 15s linear infinite',
         'fly-reverse': 'fly 15s linear reverse 5s infinite',
+        contrail: 'width 3s linear infinite',
       },
     },
   },

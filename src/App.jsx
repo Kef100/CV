@@ -14,6 +14,7 @@ import LanguageSwitch from './components/LanguageSwitch';
 
 import commonNL from './translations/nl/common.json';
 import commonEN from './translations/en/common.json';
+import Footer from './components/Footer';
 
 i18next
   .use(LanguageDetector)
@@ -37,13 +38,14 @@ function App() {
       <div className="flex flex-col font-roboto relative w-full h-full min-h-screen overflow-hidden">
         <Landing />
         <div className="pb-10 flex p-6 flex-col gap-y-10 h-full px-12 lg:px-32
-        bg-gradient-to-b from-gray-200 to-white dark:from-neutral-900 dark:to-neutral-800"
+        dark:bg-neutral-900 bg-gray-200"
         >
           <WorkExperience />
           <Education />
           <Properties />
           <Preferences />
           <Testimonials />
+          <Footer />
         </div>
       </div>
       <ScrollTop />

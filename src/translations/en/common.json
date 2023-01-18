@@ -6,21 +6,24 @@
     "title": "Developer & Designer",
     "description": "I'm a developer and spare time designer based in Gelderland, The Netherlands. I'm currently working at Mr Smith as a Developer.",
     "cta": "Explore Now",
-    "contact": "Contact Me"
-  },
-  "information": {
-    "years": {
-      "title": "Years Experience",
-      "value": 6
-    },
-    "projects": {
-      "title": "Projects",
-      "value": 10
-    },
-    "worked_jobs": {
-      "title": "Jobs/Internships",
-      "value": 5
-    }
+    "contact": "Contact Me",
+    "information": [
+      {
+        "title": "Residence",
+        "value": "The Netherlands",
+        "icon": "faLocationDot"
+      },
+      {
+        "title": "City",
+        "value": "Groesbeek",
+        "icon": "faCity"
+      },
+      {
+        "title": "Age",
+        "value": "age",
+        "icon": "faUser"
+      }
+    ]
   },
   "work_experience": {
     "title": "Work Experience",
