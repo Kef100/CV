@@ -58,7 +58,7 @@ function Landing() {
               <div className="p-2 w-32 h-32 border-2 border-sky-500 rounded-full bg-sky-500/10 backdrop-blur-md animate-float">
                 <img src="./avatar.png" className="w-full h-full rounded-full" alt="avatar" />
               </div>
-              <h1 className="text-3xl text-center [word-spacing:20rem] md:[word-spacing:unset] lg:text-left text-white">
+              <h1 className="text-3xl text-center [word-spacing:50rem] md:[word-spacing:unset] lg:text-left text-white">
                 {t('landing.title')}
               </h1>
               <p className="text-gray-200 text-lg lg:w-2/3">
