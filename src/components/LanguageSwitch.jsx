@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 function LanguageSwitch() {
@@ -9,6 +9,12 @@ function LanguageSwitch() {
     setRotated(!rotated);
     await i18n.changeLanguage(lng);
   };
+
+  useEffect(() => {
+    if (i18n.language === 'en') {
+      setRotated(true);
+    }
+  }, []);
 
   return (
     <div

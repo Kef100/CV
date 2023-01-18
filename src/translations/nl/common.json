@@ -79,15 +79,15 @@
     "institutions": [
       {
         "institution": "HAN University of Applied Sciences",
-        "location": "Arnhem, Netherlands",
-        "degree": "Bachelor",
+        "location": "Arnhem, Nederland",
+        "degree": "Bachelor / HBO",
         "year": "2021 - 2025",
         "logo": "./schools/han/logo.svg",
         "logo_style": "h-14"
       },
       {
         "institution": "ROC Nijmegen",
-        "location": "Nijmegen, Netherlands",
+        "location": "Nijmegen, Nederland",
         "degree": "MBO",
         "year": "2018 - 2021",
         "logo": "./schools/roc/logo.svg",
@@ -95,7 +95,7 @@
       },
       {
         "institution": "Montesorri College",
-        "location": "Nijmegen, Netherlands",
+        "location": "Nijmegen, Nederland",
         "degree": "Middelbare School",
         "year": "2014 - 2018",
         "logo": "./schools/montesorri/logo.svg",
