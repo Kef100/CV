@@ -29,7 +29,11 @@ function Education() {
             <div className="absolute inset-0 transition-all duration-300 gap-3 z-10 bg-white dark:bg-neutral-800
             opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center"
             >
-              <span className="p-2 rounded-full bg-sky-100 dark:bg-sky-500/50 text-sky-500 dark:text-white ring-2 ring-sky-500">{education.year}</span>
+              <span className="p-2 rounded-full bg-sky-100 dark:bg-sky-500/50
+              text-sky-500 dark:text-white ring-2 ring-sky-500"
+              >
+                {education.year}
+              </span>
               <h3 className="font-bold text-2xl dark:text-white z-20">{education.institution}</h3>
               <p className="dark:text-gray-300">{education.location}</p>
               <p className="dark:text-gray-300">{education.degree}</p>
