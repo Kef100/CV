@@ -19,7 +19,7 @@ function WorkExperience() {
             className="w-full h-96 z-20 transition-all bg-white dark:bg-neutral-800 rounded-xl
             group flex items-center justify-center relative overflow-hidden bg-cover"
           >
-            {index === 0 && (
+            {(index === 0 && project.active) && (
               <div className="absolute top-5 text-sm shadow-md -left-8 bg-gradient-to-r -rotate-45
               xl:text-base font-bold px-10 py-px from-sky-500 to-sky-400 text-white z-20"
               >
@@ -41,6 +41,7 @@ function WorkExperience() {
               </a>
               <h3 className="font-bold text-2xl text-center dark:text-white z-20">{project.title}</h3>
               <p className="text-neutral-600 dark:text-gray-200">{project.role}</p>
+              <span className="px-6 py-2 rounded-full ring-2 ring-black dark:ring-white bg-black/25 dark:bg-white/50 dark:text-white">{project.year}</span>
             </div>
             <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-all group-hover:scale-110" />
             <div className="absolute inset-0 flex items-center justify-center transition-all group-hover:z-0 z-20">

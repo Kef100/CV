@@ -24,7 +24,7 @@ function LanguageSwitch() {
       <button
         type="button"
         className="w-full h-full items-center justify-center rotate-180 uppercase
-        transition-all bg-sky-500/25 hover:bg-sky-500/40 font-bold text-black dark:text-white"
+        transition-all bg-sky-500/50 dark:bg-sky-500/25 hover:bg-sky-500/40 font-bold text-white"
         onClick={() => changeLanguage('en')}
       >
         en
@@ -32,7 +32,7 @@ function LanguageSwitch() {
       <button
         type="button"
         className="w-full h-full items-center justify-center uppercase
-        transition-all bg-sky-500/25 hover:bg-sky-500/40 font-bold text-black dark:text-white"
+        transition-all bg-sky-500/50 dark:bg-sky-500/25 hover:bg-sky-500/40 font-bold text-white"
         onClick={() => changeLanguage('nl')}
       >
         nl
