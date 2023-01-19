@@ -42,7 +42,9 @@ function Landing() {
 
   return (
     <div className="w-full h-full min-h-screen flex flex-col gap-y-5 py-6 px-12 lg:px-32 bg-gray-200 dark:bg-neutral-900 transition-all">
-      <div className="rounded-2xl flex-1 py-10 lg:p-0 bg-accent-300 bg-landing bg-cover w-full h-full relative overflow-hidden shadow-xl">
+      <div className="rounded-2xl flex-1 py-10 lg:p-0 bg-accent-300 bg-landing bg-cover
+      min-h-[50vh] w-full h-full relative overflow-hidden shadow-xl"
+      >
         <div className="absolute z-0 w-full h-full bg-black/30 top-0 left-0" />
 
         <div className="absolute z-30 px-8 py-2 bg-gray-200
