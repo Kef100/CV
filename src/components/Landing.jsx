@@ -129,7 +129,7 @@ function Landing() {
         {t('landing.information', { returnObjects: true }).map((item) => (
           <div
             key={item.title}
-            className="bg-white dark:bg-neutral-800 dark:text-white transition-all gap-3 lg:gap-5
+            className="bg-white dark:bg-neutral-800 min-h-[14rem] dark:text-white transition-all gap-3 lg:gap-5
         w-full h-full min-h-[15rem] lg:min-h-0 flex flex-col lg:flex-row items-center justify-center p-8 rounded-lg"
           >
             <div className="rounded-full bg-sky-500 w-16 h-16 flex items-center justify-center p-4">
