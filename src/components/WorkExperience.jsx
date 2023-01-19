@@ -27,8 +27,8 @@ function WorkExperience() {
               </div>
             )}
             <div className={`absolute inset-0 transition-all z-10 bg-gradient-to-br opacity-50 ${project.image_style}`} />
-            <div className="absolute inset-0 transition-all duration-300 gap-5 z-10 bg-white dark:bg-neutral-800
-            opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center"
+            <div className="absolute -bottom-full inset-0 transition-all duration-300 gap-5 z-10 bg-white dark:bg-neutral-800
+            opacity-0 group-hover:opacity-100 group-hover:bottom-0 flex flex-col items-center justify-center"
             >
               <a
                 target="_blank"
