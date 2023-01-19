@@ -25,6 +25,62 @@
       }
     ]
   },
+  "knowledge": {
+    "title": "Knowledge",
+    "subtitle": "Below you will find a list of programming languages, frameworks and tools I have experience with.",
+    "designer": {
+      "title": "Designer",
+      "subtitle": "I value making designs before programming to get feedback on the product before it's built, as well as usability for users.",
+      "disclaimer": "I'm not a professional designer, and I have not followed a study for designing. I purely do this for my own projects and for fun.",
+      "things": {
+        "title": "Things i enjoy designing",
+        "list": "UI/UX, Web, Mobile"
+      },
+      "tools": {
+        "title": "Design Tools",
+        "list": [
+          "Figma",
+          "Adobe XD",
+          "Adobe Photoshop",
+          "Adobe Illustrator"
+        ]
+      }
+    },
+    "developer":  {
+      "title": "Developer",
+      "subtitle": "I like to build things from the ground up, and enjoy the challenge of learning new technologies.",
+      "languages": {
+        "title": "Languages I speak",
+        "list": "Java, C#, Javascript, PHP, Typescript"
+      },
+      "tools": {
+        "title": "Dev Tools",
+        "list": [
+          "IntelliJ",
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Bitbucket",
+          "Docker",
+          "Jenkins",
+          "Jira",
+          "Confluence",
+          "Postman"
+        ]
+      },
+      "frameworks": {
+        "title": "Frameworks I use",
+        "list": [
+          "React",
+          "Laravel",
+          "NodeJS",
+          "Express",
+          "TailwindCSS",
+          ".NET Core"
+        ]
+      }
+    }
+  },
   "work_experience": {
     "title": "Work Experience",
     "subtitle": "Below you will find an overview of my work experience",

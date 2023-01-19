@@ -18,13 +18,13 @@ function LanguageSwitch() {
 
   return (
     <div
-      className={`fixed top-1/4 ring-2 ring-sky-500 left-0 w-20 h-20 shadow-sm rounded-full overflow-hidden 
+      className={`fixed top-1/4 ring-2 dark:ring-white ring-black left-0 w-20 h-20 shadow-sm rounded-full overflow-hidden 
       transition-all duration-300 -translate-x-1/2 z-40 flex ${!rotated ? 'rotate-180' : 'rotate-0'}`}
     >
       <button
         type="button"
         className="w-full h-full items-center justify-center rotate-180 uppercase
-        transition-all bg-sky-500/50 dark:bg-sky-500/25 hover:bg-sky-500/40 font-bold text-white"
+        transition-all bg-white dark:bg-black font-bold dark:text-white"
         onClick={() => changeLanguage('en')}
       >
         en
@@ -32,7 +32,7 @@ function LanguageSwitch() {
       <button
         type="button"
         className="w-full h-full items-center justify-center uppercase
-        transition-all bg-sky-500/50 dark:bg-sky-500/25 hover:bg-sky-500/40 font-bold text-white"
+        transition-all bg-white dark:bg-black font-bold dark:text-white"
         onClick={() => changeLanguage('nl')}
       >
         nl

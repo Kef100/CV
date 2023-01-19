@@ -25,6 +25,35 @@
       }
     ]
   },
+  "knowledge": {
+    "title": "Kennis",
+    "subtitle": "Hieronder vind je een overzicht van programmeer talen, frameworks en tools waarmee ik ervaring heb.",
+    "designer": {
+      "title": "Designer",
+      "subtitle": "Ik vindt het fijn om eerst een ontwerp te maken waar ik feedback op kan krijgen, voordat ik het product ga bouwen.",
+      "disclaimer": "Ik ben geen professionele designer, en heb hier ook geen opleiding voor gevolgd. Ik doe dit puur voor mijn eigen plezier en om mijn kennis te vergroten.",
+      "things": {
+        "title": "Dingen die ik leuk vind om te designen",
+        "list": "UI/UX, Web, Mobiel"
+      },
+      "tools": {
+        "title": "Design Tools"
+      }
+    },
+    "developer": {
+      "title": "Developer",
+      "subtitle": "Ik vind het leuk om applicaties vanaf de grond op te bouwen, en houd ervan om te leren werken met nieuwe technologieën.",
+      "languages": {
+        "title": "Talen die ik spreek"
+      },
+      "tools": {
+        "title": "Dev Tools"
+      },
+      "frameworks": {
+        "title": "Frameworks die ik gebruik"
+      }
+    }
+  },
   "work_experience": {
     "title": "Werkervaring",
     "subtitle": "Hieronder vind je een overzicht van mijn werkervaring",
@@ -54,7 +83,7 @@
         "title": "De Diepen",
         "website": "https://www.dediepen.nl/",
         "role": "Ober",
-        "year":  "Jun 2018 - Jul 2021",
+        "year": "Jun 2018 - Jul 2021",
         "logo": "./jobs/dediepen/logo.png",
         "image": "./jobs/dediepen/bg.jpg",
         "image_style": "from-brown-500 to-black",
@@ -64,7 +93,7 @@
         "title": "Qubiqx",
         "website": "https://www.qubiqx.com/",
         "role": "Web Developer",
-        "year":  "Nov. 2020 - Apr 2021",
+        "year": "Nov. 2020 - Apr 2021",
         "logo": "./jobs/qubiqx/logo.svg",
         "image": "./jobs/qubiqx/bg.jpg",
         "image_style": "from-orange-600 to-blue-600",
@@ -74,7 +103,7 @@
         "title": "Suppliance B.V.",
         "website": "https://www.suppliance.nl/",
         "role": "Web Developer",
-        "year":  "Aug 2019 - Jan. 2020",
+        "year": "Aug 2019 - Jan. 2020",
         "logo": "./jobs/suppliance/logo.svg",
         "image": "./jobs/suppliance/bg.jpg",
         "image_style": "from-emerald-800 to-emerald-700",
