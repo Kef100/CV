@@ -29,11 +29,11 @@ function Landing() {
     if (input === 'age') {
       const today = new Date();
       const birthDate = new Date('2002-12-02');
-      let a = today.getFullYear() - birthDate.getFullYear();
-      const m = today.getMonth() - birthDate.getMonth();
-      if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-        a -= 1;
-      }
+      const a = today.getFullYear() - birthDate.getFullYear();
+      // const m = today.getMonth() - birthDate.getMonth();
+      // if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      //   a -= 1;
+      // }
       return a;
     }
 
